@@ -1,10 +1,10 @@
 let body = document.querySelector("#mybody")
 let isLoggedIn = Boolean;
 let availableHouses = [
-    '/public/pexels-carlos-diaz-709767.jpg',
-    '/public/pexels-max-rahubovskiy-6782581.jpg',
-    '/public/pexels-josh-sorenson-111093.jpg',
-    '/public/pexels-jovydas-dobilas-2462015.jpg'
+    '/findmeahome/public/pexels-carlos-diaz-709767.jpg',
+    '/findmeahome/public/pexels-max-rahubovskiy-6782581.jpg',
+    '/findmeahome/public/pexels-josh-sorenson-111093.jpg',
+    '/findmeahome/public/pexels-jovydas-dobilas-2462015.jpg'
 ]
 
 function checkIfLoggedIn(state) {
