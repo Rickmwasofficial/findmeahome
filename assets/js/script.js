@@ -159,7 +159,7 @@ function apartments(num, image, curr) {
                     margin-top: 93%;
                     border: none;
                 }
-                @media (min-width: 412px) and (max-width: 819px) {
+                @media (min-width: 100px) and (max-width: 819px) {
                     abbr button {
                         border: none;
                         margin: 0px auto;
@@ -247,7 +247,7 @@ function apartments(num, image, curr) {
                         border: none;
                         margin: 0px auto;
                     }
-                    @media (min-width: 412px) and (max-width: 819px) {
+                    @media (min-width: 100px) and (max-width: 819px) {
                         abbr button {
                             border: none;
                             margin: 0px auto;
