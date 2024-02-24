@@ -1,0 +1,482 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    background: ivory;
+    text-align: center;
+}
+
+@media (min-width: 1280px) {
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .detailscont {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 5px;
+        margin: 0px auto;
+    }
+    
+    .moreimage {
+        width: 92%;
+        height: 600px;
+        background: ivory;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .leftforimage {
+        width: 49%;
+        height: 88%;
+        background: ivory;
+        margin: 7px 5px;
+    }
+    
+    .rightfordetails {
+        width: 50%;
+        height: auto;
+        background: ivory;
+        margin: 7px 5px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .rightfordetails div {
+        width: 49%;
+        height: 290px;
+        background: black;
+        margin: 2px;
+    }
+    
+    
+    .contdet {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: -8px;
+    }
+    
+    .morecont {
+        width: 92vw;
+        height: 98%;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .textdet {
+        background: ivory;
+        width: 48%;
+        padding-left: 20px;
+        display: inline-block;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+    }
+    .book {
+        background: ivory;
+        width: 48%;
+        padding-right: 1%;
+        padding-left: 2%;
+        height: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .bookdiv {
+        width: 60%;
+        height: auto;
+        border-radius: 20px;
+        background: whitesmoke;
+        display: inline-block;
+        margin: 0px auto;
+        border: 1px solid rgb(139, 139, 139);
+        padding-top: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-right: 10px;
+    }
+    
+    .in {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: left;
+        margin: 7px auto;
+        border: 1px solid rgb(139, 139, 139);
+        text-align: left;
+        padding: 10px;
+    
+    }
+    .in b {
+        margin: auto 0px;
+    }
+    
+    .bookbutton {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: green;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .addcart {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: rgb(128, 193, 219);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .report {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: red;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .reviewer {
+        background: ivory;
+        width: 100%;
+        display: inline-flex;
+        padding-right: 20px;
+    }
+    
+    .reveiwerdet b {
+        margin: auto 0px;
+        padding-left: 20px;
+    }
+    
+    .reviewerdet {
+        width: auto;
+        height: 100px;
+        display: block;
+        text-align: left;
+    }
+    
+    .reviewer img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        border-radius: 35px;
+        margin-top: -5px;
+        background-color: rgb(230, 226, 226);
+    }
+    
+    .showreviews {
+        background: none;
+        border: none;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .detailscont {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 5px;
+        margin: 0px auto;
+    }
+    
+    .moreimage {
+        width: 92%;
+        height: 600px;
+        background: ivory;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .leftforimage {
+        width: 49%;
+        height: 88%;
+        background: ivory;
+        margin: 7px 5px;
+    }
+    
+    .rightfordetails {
+        width: 50%;
+        height: 500px;
+        background: ivory;
+        margin: 7px 5px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .rightfordetails div {
+        width: 49%;
+        height: 230px;
+        background: black;
+        margin: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .contdet {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: -8px;
+        margin-top: -100px;
+    }
+    
+    .morecont {
+        width: 92vw;
+        height: 98%;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .textdet {
+        background: ivory;
+        width: 48%;
+        padding-left: 20px;
+        display: inline-block;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+    }
+    .book {
+        background: ivory;
+        width: 48%;
+        padding-right: 1%;
+        padding-left: 2%;
+        height: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .bookdiv {
+        width: 60%;
+        height: auto;
+        border-radius: 20px;
+        background: whitesmoke;
+        display: inline-block;
+        margin: 0px auto;
+        border: 1px solid rgb(139, 139, 139);
+        padding-top: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-right: 10px;
+    }
+    
+    .in {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: left;
+        margin: 7px auto;
+        border: 1px solid rgb(139, 139, 139);
+        text-align: left;
+        padding: 10px;
+    
+    }
+    .in b {
+        margin: auto 0px;
+    }
+    
+    .bookbutton {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: green;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .addcart {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: rgb(128, 193, 219);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .report {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: red;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .reviewer {
+        background: ivory;
+        width: 100%;
+        display: inline-flex;
+        padding-right: 20px;
+    }
+    
+    .reveiwerdet b {
+        margin: auto 0px;
+        padding-left: 20px;
+    }
+    
+    .reviewerdet {
+        width: auto;
+        height: 100px;
+        display: block;
+        text-align: left;
+    }
+    
+    .reviewer img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        border-radius: 35px;
+        margin-top: -5px;
+        background-color: rgb(230, 226, 226);
+    }
+    
+    .showreviews {
+        background: none;
+        border: none;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,878 @@
+body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    min-width: 100vw;
+    outline: hidden;
+    background: ivory;
+
+}
+@media (min-width: 1280px) {
+    .topcardsdetail {
+        width: 100%;
+        height: 91px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 0px auto;
+        margin-top: 99.7%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .card {
+        width: 25vw;
+        height: 300px;
+        margin: 50px;
+        background: white;
+        box-shadow: 0px 0px 30px 0px lightblue;
+        border-radius: 20px;
+    }
+    .card2 {
+        width: 30vw;
+        height: 400px;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: 0px 0px 50px 0px grey;
+    }
+    .card2:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 50px 0px lightblue;
+    }
+    
+    .topcardsdetail2 {
+        width: 100%;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 0px auto;
+        margin-top: 94%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .cardfull {
+        width: 20vw;
+        height: 360px;
+        background: ivory;
+        border-radius: 20px;
+        margin: 10px;
+        margin-right: 12px;
+        
+    }
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        background: ivory;
+        display: inline-flex;
+        border-radius: 15px;
+        justify-content: space-between;
+        vertical-align: middle;
+        height: 15vh;
+        box-shadow: 0px 0px 20px 0px grey;
+        margin-top: -100px;
+    }
+    .search div {
+        width: auto;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    
+    .search p, .search button {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .searchtitle {
+        padding-top: 45%;
+        color: grey;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .cont {
+        width: 100vw;
+        background-blend-mode: darken;
+        height: 700px;
+        display: inline-block;
+        text-align: center;
+        margin-left: -8px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+    
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    
+    .cont1 {
+        width: 88%;
+        margin: 0px auto;
+        height: 80%;
+        border-radius: 15px;
+    }
+    
+    .tophouses {
+        width: 88vw;
+        height: auto;
+        display: inline-block;
+        margin: 0px auto;
+        margin-top: -80px;
+        color: darkblue;
+    }
+    
+    .apartment {
+        width: 88vw;
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .footer {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        margin-left: -9px;
+        padding: 10px;
+        color: white;
+        margin-bottom: -25px;
+    }
+    .ndfooter {
+        width: 100%;
+        height: 95%;
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .footer svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter {
+        width: 45%;
+        height: 100%;
+        background: black;
+        text-align: left;
+        margin-left: 40px;
+        
+    }
+    .leftfooter {
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus, .more {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+    }
+    .contactus a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+    }
+        
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .card {
+        width: 25vw;
+        height: 300px;
+        margin: 50px;
+        background: white;
+        box-shadow: 0px 0px 30px 0px lightblue;
+        border-radius: 20px;
+    }
+    .topcardsdetail {
+        width: 100%;
+        height: 127px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 0px auto;
+        margin-top: 99%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .card2 {
+        width: 30vw;
+        height: 350px;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: 0px 0px 50px 0px grey;
+    }
+    .card2:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 50px 0px lightblue;
+    }
+    .topcardsdetail2 {
+        width: 100%;
+        height: 114px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 0px auto;
+        margin-top: 99%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .cardfull {
+        width: 26vw;
+        height: 380px;
+        background: ivory;
+        border-radius: 20px;
+        margin: 10px;
+        margin-right: 14px;
+        
+    }
+    .apartment {
+        padding-left: 34px;
+    }
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        background: ivory;
+        display: inline-flex;
+        border-radius: 15px;
+        justify-content: space-between;
+        vertical-align: middle;
+        height: 15vh;
+        box-shadow: 0px 0px 20px 0px grey;
+        margin-top: -100px;
+    }
+    .search div {
+        width: auto;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    
+    .search p, .search button {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .searchtitle {
+        padding-top: 45%;
+        color: grey;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .cont {
+        width: 100vw;
+        background-blend-mode: darken;
+        height: 700px;
+        display: inline-block;
+        text-align: center;
+        margin-left: -8px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+    
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    
+    .cont1 {
+        width: 88%;
+        margin: 0px auto;
+        height: 80%;
+        border-radius: 15px;
+    }
+    
+    .tophouses {
+        width: 88vw;
+        height: auto;
+        display: inline-block;
+        margin: 0px auto;
+        margin-top: -80px;
+        color: darkblue;
+    }
+    
+    .apartment {
+        width: 88vw;
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }   
+    .footer {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        margin-left: -9px;
+        padding: 10px;
+        color: white;
+        margin-bottom: -25px;
+    }
+    .ndfooter {
+        width: 100%;
+        height: 95%;
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .footer svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter {
+        width: 45%;
+        height: 100%;
+        background: black;
+        text-align: left;
+        margin-left: 40px;
+        
+    }
+    .leftfooter {
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus, .more {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+    }
+    .contactus a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 819px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+    }
+    .card {
+        width: 25vw;
+        height: 350px;
+        margin: 50px;
+        background: white;
+        box-shadow: 0px 0px 30px 0px lightblue;
+        border-radius: 20px;
+    }
+    .topcardsdetail {
+        width: 100%;
+        height: 127px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 0px auto;
+        margin-top: 99%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .card2 {
+        width: 30vw;
+        height: 350px;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: 0px 0px 50px 0px grey;
+    }
+    .card2:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 50px 0px lightblue;
+    }
+    .topcardsdetail2 {
+        width: 100%;
+        height: 114px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 0px auto;
+        margin-top: 99%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .cardfull {
+        display: block;
+        width: 80%;
+        text-align: center;
+        border-radius: 22px;
+        background: ivory;
+        height: 470px;
+        position: relative;
+        margin: 0px auto;
+    }
+    
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 100px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -4px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    
+    .search2 {
+        font-family: sans-serif;
+        width: 85vw;
+        background: ivory;
+        display: inline-block;
+        border-radius: 15px;
+        height: auto;
+        margin-left: 6.5vw;
+        box-shadow: 0px 0px 20px 0px grey;
+    }
+    .roomprice, .countyloc {
+        width: 100vw;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 5vw;
+    }
+    .search2 div {
+        width: 85vw;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+        margin-top: 8px;
+    }
+    
+    .search2 p, .search2 button {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .searchtitle {
+        padding-top: 2%;
+        color: grey;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .cont {
+        width: 88vw;
+        background-blend-mode: darken;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        margin-left: -8px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin: 0px auto;
+    }
+    
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+    
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    
+    .cont1 {
+        width: 0;
+        margin: 0px auto;
+        height: 0;
+        border-radius: 15px;
+        display: none;
+    }
+    
+    .tophouses {
+        width: 88vw;
+        height: auto;
+        display: inline-block;
+        margin: 0px auto;
+        color: darkblue;
+    }
+    
+    .apartment {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 10px;
+    }
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .scriptdesc, .topcards, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    #detaillink {
+        width: 100%;
+        height: 100%;
+        background: red;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+    .search2 {
+        padding: 10px;
+        margin-top: 85px;
+    }
+    
+    .entiresearch2 {
+        width: 85vw;
+        height: 60px;
+        margin: 35px auto;
+        border-radius: 15px;
+        border: none;
+        background: rgb(128, 193, 219);
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 18px;
+    }
+    .actualdetail2 {
+        color: rgb(128, 193, 219);
+        font-size: 20px;
+    }
+    select2 {
+        border: none;
+        background: ivory;
+        color: rgb(128, 193, 219);
+        font-size: 20px;
+    }
+    select2:before {
+        content: '\2191'; /* Unicode character for an up arrow */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+    select2:after {
+        content: '\25BC'; /* Unicode character for a down arrow */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+    select2 option {
+        font-size: 17px;
+    }
+    .top, .cont, .footer {
+        display: none;
+    }
+}
+
+

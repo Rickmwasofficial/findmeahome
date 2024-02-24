@@ -1,0 +1,154 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    background: ivory;
+    text-align: center;
+}
+
+.top {
+    display: inline-flex;
+    margin: -10px;
+    width: 100%;
+    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.logoname {
+    align-self: flex-start;
+}
+
+.mylogo {
+    margin-left: 70px;
+    padding: 15px;
+    height: 60px;
+}
+
+.end {
+    display: inline-flex;
+    justify-self: flex-end;
+    vertical-align: middle;
+    align-items: center;    
+    margin-right: 85px;
+}
+
+.tag {
+    color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    display: inline-flex;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background: rgb(128, 193, 219);
+    color: white; 
+    padding-left: 6px;
+}
+
+.txt {
+    padding-left: 6px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+button:hover {
+    
+    cursor: pointer;
+}
+
+.servicescont {
+    width: 100vw;
+    height: 600px;
+    margin-bottom: 160px;
+}
+
+.contimage {
+    width: 88vw;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+
+.desc {
+    width: 60vw;
+    height: auto;
+    padding-top: 5%;
+    margin: 0px auto;
+}
+.search {
+    font-family: sans-serif;
+    width: 75vw;
+    display: inline-flex;
+    border-radius: 15px;
+    vertical-align: middle;
+    height: auto;
+    margin-top: -130px;
+    margin-bottom: 50px;
+}
+
+.forstudents, .forlandlords {
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 0px 20px 0px grey;
+    border-radius: 10px;
+    margin: 0px auto;
+    background: ivory;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#students {
+    width: 95vw;
+    height: auto;
+    margin: 30px auto;
+}
+#landlord {
+    width: 95vw;
+    height: auto;
+    margin: 0px auto;
+}
+
+.search a {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.forstudents {
+    margin-right: 0px;
+}
+.forlandlords {
+    margin-left: 20px;
+}
+
+
+.desc h1 {
+    margin-top: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkblue;
+    font-size: 50px;
+}
+
+.desc p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
