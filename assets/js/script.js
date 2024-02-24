@@ -275,7 +275,7 @@ function apartments(num, image, curr) {
                         border-top-right-radius: 20px;
                         border-top-left-radius: 20px;
                         margin: 0px auto;
-                        background: url("/public/pexels-carlos-diaz-709767.jpg");
+                        background: url("pexels-carlos-diaz-709767.jpg");
                         background-size: cover; 
                         background-position: center; 
                         background-blend-mode: darken;
