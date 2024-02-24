@@ -177,7 +177,7 @@ function apartments(num, image, curr) {
                         height: 10%;
                         margin: 10px;
                         border-radius: 48.9%;
-                        margin-top: 58%;
+                        margin-top: 38%;
                         border: none;
                     }
                 }
@@ -265,7 +265,7 @@ function apartments(num, image, curr) {
                             height: 10%;
                             margin: 10px;
                             border-radius: 48.9%;
-                            margin-top: 58%;
+                            margin-top: 38%;
                             border: none;
                         }
                     }
