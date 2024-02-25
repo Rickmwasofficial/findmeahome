@@ -7,97 +7,11 @@
 
         <!--Small icon to be displayed on top of the tab-->
         <link rel="icon" href="pixelcut-export (2).png" type="image/png" />
-        <link rel="stylesheet" href="/assets/css/services.css">
+        <link rel="stylesheet" href="/findmeahome/assets/css/services.css">
         <style>
             a {
                 text-decoration: none;
                 color: black;
-            }
-            
-            .footer {
-                text-align: center;
-                width: 100%;
-                height: 400px;
-                display: inline-block;
-                justify-content: space-between;
-                background: black;
-                margin-left: -9px;
-                padding: 10px;
-                color: white;
-                margin-bottom: -25px;
-            }
-            .ndfooter {
-                width: 100%;
-                height: 95%;
-                display: inline-flex;
-                justify-content: space-between;
-                margin: 0px;
-            }
-            .footer svg {
-                width: 50px;
-                height: 50px;
-                margin-right: 10px;
-            }
-            .rightfooter {
-                width: 45%;
-                height: 100%;
-                background: black;
-                text-align: left;
-                margin-left: 40px;
-                
-            }
-            .leftfooter {
-                width: 45%;
-                height: 100%;
-                display: inline-block;
-                background: black;
-                text-align: left;
-                margin-right: 40px;
-            }
-            .contactus, .more {
-                width: 75%;
-                margin: 0px auto;
-                height: 100%;
-                text-align: left;
-            }
-            .contactus a {
-                display: inline-flex;
-                justify-content: space-between;
-                margin: auto 0px;
-            }
-            .student, .landlord {
-                width: 88vw;
-                height: 600px;
-                margin: 0px auto;
-                margin-bottom: 40px;
-                background: white;
-            }
-            .design {
-                width: 95%;
-                height: 450px;
-                background: black;
-                margin: 10px auto;
-                display: inline-flex;
-                justify-content: space-between;
-            }
-            .descrip {
-                width: 50%;
-                padding: 10px;
-                height: 100%;
-                color: white;
-                text-align: center;
-                padding-left: 40px;
-                padding-top: 100px;
-            }
-            .imagee {
-                width: 40%;
-                height: 90%;
-                margin: 20px auto;
-                border-radius: 10px;
-                box-shadow: 0px 0px 30px 0px lightblue;
-            }
-            .design p {
-                font-size: 25px;
             }
             
         </style>
@@ -142,6 +56,17 @@
                     </button></a>
                 </div>
             </div>
+            <div class="top2">
+                <div class="logoname">
+                    <img class="mylogo" src="newlohg-transformed.png"/>
+                </div>
+                <div class="menubtn">
+                    <button class="end2" onclick="showpopup(1)" style="background: url('menu-bar.png'); background-size: cover; background-position: center;">
+                        
+                    </button>
+                </div>
+
+            </div>
             <div class="servicescont">
                 <div class="contimage" style="background: url('pexels-sevenstorm-juhaszimrus-439391.jpg'); background-blend-mode: darken;background-size: cover; background-position: bottom;">
                     <div class="desc">
@@ -149,6 +74,23 @@
                         <p>Are you a student searching for the ideal place to call home during your university journey? Or are you a landlord looking to connect with responsible tenants? Look no further! Roomify is the ultimate platform designed to simplify the student housing experience for both students and landlords.
                         </p>
                     </div>
+                </div>
+                <div class="popup">
+                    <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a><br>
+                    <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a><br>
+                    <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a><br>
+                    <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a><br>
+                    <a href="login.html">
+                        <button class="login" onclick="login()">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                            </svg>
+                            <p class="txt">Create account</p>
+                            
+                        </button>
+                    </a>
                 </div>
                 <div class="search">
                     <a href="#students">
@@ -169,7 +111,7 @@
                     </a>
                 </div>
             </div>
-            <div class="students" id="students">
+            <div class="student" id="students">
                 <h1>For Students</h1>
                 <div class="dreamhome design">
                     <div class="descrip dream">
@@ -256,6 +198,97 @@
                     
                 </div>
             </div>
+            <div class="student2" id="students">
+                <h1 style="background: ivory;">For Students</h1>
+                <div class="dreamhome design">
+                    <div class="imagee dreamimg" style="background: url('dreamhome.jpg'); background-size: cover;">
+                        
+                    </div>
+                    <div class="descrip dream">
+                        <h1>Find Your Dream Home: </h1>
+                        <p>Explore a diverse range of student-friendly accommodations near your university. From cozy apartments to spacious shared houses, we have options that suit every budget and lifestyle.</p>
+                    </div>
+                    
+                </div>
+                <div class="verifiedlistings design">
+                    <div class="imagee listingimg" style="background: url('19197636.jpg'); background-size: cover;">
+                        
+                    </div>
+                    <div class="descrip listing">
+                        <h1>Verified Listings:</h1>
+                        <p>Rest easy knowing that all listings on Roomify are verified and meet our high standards for safety and quality. Your comfort and security are our top priorities.</p>
+                    </div>
+                </div>
+                <div class="connect design">
+                    <div class="imagee connectimg" style="background: url('2883790.jpg'); background-size: cover;">
+                        
+                    </div>
+                    <div class="descrip connectdesc">
+                        <h1>Connect with Landlords:</h1>
+                        <p>Communicate directly with landlords through our secure messaging system. Ask questions, schedule viewings, and finalize details seamlessly—all within the Roomichat platform.</p>
+                    </div>
+                    
+    
+                </div>
+                <div class="mobileaccess design">
+                    
+                    <div class="imagee mobileimg" style="background: url('4334970.jpg'); background-size: cover;">
+                        
+                    </div>
+                    <div class="descrip mobile">
+                        <h1>Mobile Accessibility:</h1>
+                        <p> Search for your ideal housing on the go! Our mobile-friendly platform ensures you can browse listings and connect with landlords anytime, anywhere.</p>
+                    </div>
+    
+                </div>
+                
+            </div>
+            <div class="landlord2" id="landlord" style="background: ivory;">
+                <h1 style="background: ivory;">For Landlords</h1>
+                <div class="targetaudience design">
+                    <div class="imagee audienceimg" style="background: url('targetaudience.jpg'); background-size: cover;">
+                       
+                    </div>
+                    <div class="descrip audience">
+                        <h1>Reach a Targeted Audience:</h1>
+                        <p>List your student accommodations on Roomify and connect with a targeted audience of university students. Increase your visibility and attract responsible tenants.</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="effortless design">
+                    <div class="imagee effortlessimg" style="background: url('easycomm.avif'); background-size: cover;">
+                        
+                    </div>
+                    <div class="descrip effortlessdesc">
+                        <h1>Effortless Communication:</h1>
+                        <p> Streamline communication with potential tenants using our secure messaging system. Respond to inquiries, share details, and manage your listings—all in one place.</p>
+                    </div>
+                    
+                </div>
+                <div class="maximise design">
+                    <div class="imagee maximg" style="background: url('occupancy.jpg'); background-size: cover;">
+                        
+                    </div>
+                    <div class="descrip maxdesc">
+                        <h1>Maximize Occupancy:</h1>
+                        <p>Optimize your rental property's occupancy by reaching students actively searching for housing. Let Roomify help you find the right tenants quickly and efficiently.</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="friendly design">
+                    
+                    <div class="imagee friendlyimg" style="background: url('UiUx.avif'); background-size: cover;">
+    
+                    </div>
+                    <div class="descrip friendlydesc">
+                        <h1>User-Friendly Interface:</h1>
+                        <p>Easily manage your listings and profile through our intuitive and user-friendly interface. No hassle, just results!</p>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
         
         <div class="footer">
@@ -305,6 +338,53 @@
             </div>
             <p style="margin: 0px;">&copy;2023 ROOMIFY KENYA. All rights reserved.</p>
         </div>
-        <script src="/assets/js/services.js"></script>
+        <div class="footer2">
+            <div class="ndfooter2">
+                <div class="rightfooter2">
+                    <div class="more2" style="text-align: left;">
+                        <style>
+                            .more a, .more p {
+                                padding-left: 25%;
+                                margin: 0px;
+                            }
+                        </style>
+                        <div class="logoname" style="padding: 0px; margin: 20px; border-radius: 10px; text-align: left;">
+                            <img class="mylogo" src="newlohg-transformed.png"/>
+                        </div>
+                        <p><b>BOOK SMART. LIVE SMART.</b></p>
+                        <a href="#" style="color: white;"><p>About Us</p></a>
+                        <a href="#" style="color: white;"><p>Our Services</p></a>
+                        <a href="#" style="color: white;"><p>Blog</p></a>
+                    </div>
+                </div>
+                <div class="leftfooter2">
+                    <div class="contactus2" id="contactus2">
+                        <h2>Any Complaints or Suggestions? Contact Us</h2>
+                        
+                            <a href="#" style="color: white;"><?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                                .st0{fill:url(#SVGID_1_);}
+                                .st1{fill:#FFFFFF;}
+                            </style><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="146.4465" x2="853.5535" y1="853.5535" y2="146.4465"><stop offset="0" style="stop-color:#FFD521"/><stop offset="5.510481e-02" style="stop-color:#FFD020"/><stop offset="0.1241" style="stop-color:#FEC01E"/><stop offset="0.2004" style="stop-color:#FCA71B"/><stop offset="0.2821" style="stop-color:#FA8316"/><stop offset="0.3681" style="stop-color:#F85510"/><stop offset="0.4563" style="stop-color:#F51E09"/><stop offset="0.5" style="stop-color:#F30005"/><stop offset="0.5035" style="stop-color:#F20007"/><stop offset="0.5966" style="stop-color:#E1003B"/><stop offset="0.6879" style="stop-color:#D30067"/><stop offset="0.7757" style="stop-color:#C70088"/><stop offset="0.8589" style="stop-color:#BF00A0"/><stop offset="0.9357" style="stop-color:#BB00AF"/><stop offset="1" style="stop-color:#B900B4"/></linearGradient><path class="st0" d="M500,1000L500,1000C223.9,1000,0,776.1,0,500v0C0,223.9,223.9,0,500,0h0c276.1,0,500,223.9,500,500v0  C1000,776.1,776.1,1000,500,1000z"/><g><path class="st1" d="M500,220.2c91.1,0,101.9,0.3,137.9,2c33.3,1.5,51.4,7.1,63.4,11.8c15.9,6.2,27.3,13.6,39.2,25.5   c11.9,11.9,19.3,23.3,25.5,39.2c4.7,12,10.2,30.1,11.8,63.4c1.6,36,2,46.8,2,137.9s-0.3,101.9-2,137.9   c-1.5,33.3-7.1,51.4-11.8,63.4c-6.2,15.9-13.6,27.3-25.5,39.2c-11.9,11.9-23.3,19.3-39.2,25.5c-12,4.7-30.1,10.2-63.4,11.8   c-36,1.6-46.8,2-137.9,2s-101.9-0.3-137.9-2c-33.3-1.5-51.4-7.1-63.4-11.8c-15.9-6.2-27.3-13.6-39.2-25.5   c-11.9-11.9-19.3-23.3-25.5-39.2c-4.7-12-10.2-30.1-11.8-63.4c-1.6-36-2-46.8-2-137.9s0.3-101.9,2-137.9   c1.5-33.3,7.1-51.4,11.8-63.4c6.2-15.9,13.6-27.3,25.5-39.2c11.9-11.9,23.3-19.3,39.2-25.5c12-4.7,30.1-10.2,63.4-11.8   C398.1,220.5,408.9,220.2,500,220.2 M500,158.7c-92.7,0-104.3,0.4-140.7,2.1c-36.3,1.7-61.1,7.4-82.9,15.9   C254,185.3,234.9,197,216,216c-19,19-30.6,38-39.4,60.5c-8.4,21.7-14.2,46.5-15.9,82.9c-1.7,36.4-2.1,48-2.1,140.7   c0,92.7,0.4,104.3,2.1,140.7c1.7,36.3,7.4,61.1,15.9,82.9C185.3,746,197,765.1,216,784c19,19,38,30.6,60.5,39.4   c21.7,8.4,46.5,14.2,82.9,15.9c36.4,1.7,48,2.1,140.7,2.1s104.3-0.4,140.7-2.1c36.3-1.7,61.1-7.4,82.9-15.9   C746,814.7,765.1,803,784,784c19-19,30.6-38,39.4-60.5c8.4-21.7,14.2-46.5,15.9-82.9c1.7-36.4,2.1-48,2.1-140.7   s-0.4-104.3-2.1-140.7c-1.7-36.3-7.4-61.1-15.9-82.9C814.7,254,803,234.9,784,216c-19-19-38-30.6-60.5-39.4   c-21.7-8.4-46.5-14.2-82.9-15.9C604.3,159.1,592.7,158.7,500,158.7L500,158.7z"/><path class="st1" d="M500,324.7c-96.8,0-175.3,78.5-175.3,175.3S403.2,675.3,500,675.3S675.3,596.8,675.3,500   S596.8,324.7,500,324.7z M500,613.8c-62.8,0-113.8-50.9-113.8-113.8S437.2,386.2,500,386.2c62.8,0,113.8,50.9,113.8,113.8   S562.8,613.8,500,613.8z"/><circle class="st1" cx="682.2" cy="317.8" r="41"/></g></svg> <p>Check us out on Instagram</p></a><br>
+                        
+                            <a href="#" style="color: white;"><?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                                .st0{fill:#25D366;}
+                                .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+                            </style><title/><g><path class="st0" d="M500,1000L500,1000C223.9,1000,0,776.1,0,500v0C0,223.9,223.9,0,500,0h0c276.1,0,500,223.9,500,500v0   C1000,776.1,776.1,1000,500,1000z"/><g><g id="WA_Logo"><g><path class="st1" d="M733.9,267.2c-62-62.1-144.6-96.3-232.5-96.4c-181.1,0-328.6,147.4-328.6,328.6      c0,57.9,15.1,114.5,43.9,164.3L170.1,834l174.2-45.7c48,26.2,102,40,157,40h0.1c0,0,0,0,0,0c181.1,0,328.5-147.4,328.6-328.6      C830.1,411.9,796,329.3,733.9,267.2z M501.5,772.8h-0.1c-49,0-97.1-13.2-139-38.1l-10-5.9L249,755.9l27.6-100.8l-6.5-10.3      c-27.3-43.5-41.8-93.7-41.8-145.4c0.1-150.6,122.6-273.1,273.3-273.1c73,0,141.5,28.5,193.1,80.1c51.6,51.6,80,120.3,79.9,193.2      C774.6,650.3,652,772.8,501.5,772.8z M651.3,568.2c-8.2-4.1-48.6-24-56.1-26.7c-7.5-2.7-13-4.1-18.5,4.1      c-5.5,8.2-21.2,26.7-26,32.2c-4.8,5.5-9.6,6.2-17.8,2.1c-8.2-4.1-34.7-12.8-66-40.8c-24.4-21.8-40.9-48.7-45.7-56.9      c-4.8-8.2-0.5-12.7,3.6-16.8c3.7-3.7,8.2-9.6,12.3-14.4c4.1-4.8,5.5-8.2,8.2-13.7c2.7-5.5,1.4-10.3-0.7-14.4      c-2.1-4.1-18.5-44.5-25.3-61c-6.7-16-13.4-13.8-18.5-14.1c-4.8-0.2-10.3-0.3-15.7-0.3c-5.5,0-14.4,2.1-21.9,10.3      c-7.5,8.2-28.7,28.1-28.7,68.5c0,40.4,29.4,79.5,33.5,84.9c4.1,5.5,57.9,88.4,140.3,124c19.6,8.5,34.9,13.5,46.8,17.3      c19.7,6.3,37.6,5.4,51.7,3.3c15.8-2.4,48.6-19.9,55.4-39c6.8-19.2,6.8-35.6,4.8-39C665,574.4,659.5,572.4,651.3,568.2z"/></g></g></g></g></svg> <p>Text us on Whatsapp</p></a><br>
+                        
+                            <a href="#" style="color: white;"><?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                                .st0{fill:#0078B5;}
+                                .st1{fill:#FFFFFF;}
+                            </style><title/><g><path class="st0" d="M500,1000L500,1000C223.9,1000,0,776.1,0,500l0,0C0,223.9,223.9,0,500,0l0,0c276.1,0,500,223.9,500,500l0,0   C1000,776.1,776.1,1000,500,1000z"/><g><g><path class="st1" d="M184.2,387.3h132.9v427.7H184.2V387.3z M250.7,174.7c42.5,0,77,34.5,77,77.1s-34.5,77.1-77,77.1     c-42.6,0-77.1-34.5-77.1-77.1C173.5,209.3,208,174.7,250.7,174.7"/><path class="st1" d="M400.5,387.3H528v58.4h1.8c17.7-33.6,61-69.1,125.8-69.1c134.6,0,159.5,88.6,159.5,203.7v234.7H682.2V607.1     c0-49.7-0.9-113.4-69.1-113.4c-69.2,0-79.8,54-79.8,109.8v211.6H400.5V387.3z"/></g></g></g></svg> <p>Check Us Out On LinkedIn</p></a><br>
+                        
+                            <a href="#" style="color: white;"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x31_12-gmail_x2C__email_x2C__mail"><g><g><g><rect height="358.87" style="fill:#F1F5F7;" width="357.904" x="77.045" y="76.565"/><path d="M256.002,293.738l178.947,141.697v-279.74L256.002,293.738z M256.002,293.738" style="fill:#DCE6EA;"/><path d="M449.861,76.565h-14.912L256.002,218.26L77.045,76.565H62.134      c-24.693,0-44.737,20.094-44.737,44.858v269.152c0,24.759,20.044,44.859,44.737,44.859h14.911v-279.74l178.957,138.014      l178.947-138.047v279.773h14.912c24.699,0,44.742-20.101,44.742-44.859V121.424C494.604,96.66,474.561,76.565,449.861,76.565      L449.861,76.565z M449.861,76.565" style="fill:#F84437;"/></g></g></g></g><g id="Layer_1"/></svg> <p>Send us a Mail</p></a><br>
+                        
+                            <a href="#" style="color: white;"><?xml version="1.0" ?><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M31.993,6.077C30.816,6.6,29.552,6.953,28.223,7.11c1.355-0.812,2.396-2.098,2.887-3.63  c-1.269,0.751-2.673,1.299-4.168,1.592C25.744,3.797,24.038,3,22.149,3c-3.625,0-6.562,2.938-6.562,6.563  c0,0.514,0.057,1.016,0.169,1.496C10.301,10.785,5.465,8.172,2.227,4.201c-0.564,0.97-0.888,2.097-0.888,3.3  c0,2.278,1.159,4.286,2.919,5.464c-1.075-0.035-2.087-0.329-2.972-0.821c-0.001,0.027-0.001,0.056-0.001,0.082  c0,3.181,2.262,5.834,5.265,6.437c-0.55,0.149-1.13,0.23-1.729,0.23c-0.424,0-0.834-0.041-1.234-0.117  c0.834,2.606,3.259,4.504,6.13,4.558c-2.245,1.76-5.075,2.811-8.15,2.811c-0.53,0-1.053-0.031-1.566-0.092  C2.905,27.913,6.355,29,10.062,29c12.072,0,18.675-10.001,18.675-18.675c0-0.284-0.008-0.568-0.02-0.85  C30,8.55,31.112,7.395,31.993,6.077z" fill="#55ACEE"/><g/><g/><g/><g/><g/><g/></svg> <p>Check us out on Twitter</p></a><br>
+
+                    </div>
+                </div>
+            </div>
+            <p style="margin: 0px; color: white; padding-left: 55px;">&copy;2023 ROOMIFY KENYA. All rights reserved.</p>
+        </div>
+        <script src="/findmeahome/assets/js/services.js"></script>
     </body>
 </html>
