@@ -642,7 +642,7 @@ body {
     }
     
     .rightfordetails {
-        width: 100%;
+        width: 100vw;
         height: 500px;
         background: ivory;
         margin: 7px 5px;
@@ -655,11 +655,12 @@ body {
     }
     
     .rightfordetails div {
-        width: 42%;
+        width: 40vw;
         height: 170px;
         background: black;
         margin: 2px;
         margin-top: 7px;
+        background-position: center;
         margin-bottom: 0px;
     }
     
@@ -806,7 +807,7 @@ body {
         background: ivory;
         z-index: 1;
         margin-top: -15px;
-        margin-left: -160px;
+        margin-left: -120px;
     }
     
     .menubtn {
