@@ -1,154 +1,1511 @@
-body {
-    overflow-x: hidden;
-    width: 100%;
-    height: auto;
-    background: ivory;
-    text-align: center;
+@media (min-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
+
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .logoname {
+        align-self: flex-start;
+    }
+
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    button:hover {
+        
+        cursor: pointer;
+    }
+
+    .servicescont {
+        width: 100vw;
+        height: 600px;
+        margin-bottom: 160px;
+    }
+
+    .contimage {
+        width: 88vw;
+        height: 100%;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+
+
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        display: inline-flex;
+        border-radius: 15px;
+        vertical-align: middle;
+        height: auto;
+        margin-top: -130px;
+        margin-bottom: 50px;
+    }
+
+    .forstudents, .forlandlords {
+        width: 300px;
+        height: 250px;
+        box-shadow: 0px 0px 20px 0px grey;
+        border-radius: 10px;
+        margin: 0px auto;
+        background: ivory;
+        padding: 10px;
+        text-align: center;
+        
+    }
+
+    .forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #students {
+        width: 95vw;
+        height: auto;
+        margin: 30px auto;
+    }
+    #landlord {
+        width: 95vw;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .search a {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    .forstudents {
+        margin-right: 0px;
+    }
+    .forlandlords {
+        margin-left: 20px;
+    }
+
+
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .footer {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        margin-left: -9px;
+        padding: 10px;
+        color: white;
+        margin-bottom: -25px;
+    }
+    .ndfooter {
+        width: 100%;
+        height: 95%;
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .footer svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .rightfooter {
+        width: 45%;
+        height: 100%;
+        background: black;
+        text-align: left;
+        margin-left: 40px;
+        
+    }
+    .leftfooter {
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus, .more {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+    }
+    .contactus a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+    }
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .student, .landlord {
+        width: 88vw;
+        height: 600px;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        background: white;
+    }
+    .design {
+        width: 95%;
+        height: 450px;
+        background: black;
+        margin: 10px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .descrip {
+        width: 50%;
+        padding: 10px;
+        height: 100%;
+        color: white;
+        text-align: center;
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+    .imagee {
+        width: 40%;
+        height: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 0px lightblue;
+    }
+    .design p {
+        font-size: 25px;
+    }
+    .top2, .footer2, .ndfooter2, .leftfooter2, .end2, .top2 .logoname, .contimage2, .student2, .landlord2, .footer2 p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
 }
 
-.top {
-    display: inline-flex;
-    margin: -10px;
-    width: 100%;
-    vertical-align: middle;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-}
+@media (min-width: 412px) and (max-width: 819px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
 
-.logoname {
-    align-self: flex-start;
-}
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
 
-.mylogo {
-    margin-left: 70px;
-    padding: 15px;
-    height: 60px;
-}
+    .logoname {
+        align-self: flex-start;
+    }
 
-.end {
-    display: inline-flex;
-    justify-self: flex-end;
-    vertical-align: middle;
-    align-items: center;    
-    margin-right: 85px;
-}
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
 
-.tag {
-    color: black;
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
 
-.login {
-    display: inline-flex;
-    border-radius: 20px;
-    border: none;
-    width: 150px;
-    height: 50px;
-    margin: 15px;
-    margin-right: 0px;
-    margin-left: 0px;
-    text-align: center;
-    vertical-align: middle;
-    background: rgb(128, 193, 219);
-    color: white; 
-    padding-left: 6px;
-}
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-.txt {
-    padding-left: 6px;
-    padding-bottom: 10px;
-    padding-top: 2px;
-}
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
 
-button:hover {
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    button:hover {
+        
+        cursor: pointer;
+    }
+
+    .servicescont {
+        width: 100vw;
+        height: 600px;
+        margin-bottom: 20px;
+        background: ivory;
+    }
+
+    .contimage {
+        width: 88vw;
+        height: 100%;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
     
-    cursor: pointer;
-}
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        display: inline-block;
+        border-radius: 15px;
+        vertical-align: middle;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
 
-.servicescont {
-    width: 100vw;
-    height: 600px;
-    margin-bottom: 160px;
-}
+    .forstudents, .forlandlords {
+        width: auto;
+        height: 250px;
+        box-shadow: 0px 0px 20px 0px grey;
+        border-radius: 10px;
+        margin: 0px auto;
+        background: ivory;
+        text-align: center;
+        
+    }
 
-.contimage {
-    width: 88vw;
-    height: 100%;
-    border-radius: 10px;
-    margin: 0px auto;
-}
+    .forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #students {
+        width: 95vw;
+        height: auto;
+        margin: 30px auto;
+        margin-top: 0px;
+    }
+    #landlord {
+        width: 95vw;
+        height: auto;
+        margin: 0px auto;
+    }
 
-
-.desc {
-    width: 60vw;
-    height: auto;
-    padding-top: 5%;
-    margin: 0px auto;
-}
-.search {
-    font-family: sans-serif;
-    width: 75vw;
-    display: inline-flex;
-    border-radius: 15px;
-    vertical-align: middle;
-    height: auto;
-    margin-top: -130px;
-    margin-bottom: 50px;
-}
-
-.forstudents, .forlandlords {
-    width: 300px;
-    height: 250px;
-    box-shadow: 0px 0px 20px 0px grey;
-    border-radius: 10px;
-    margin: 0px auto;
-    background: ivory;
-    padding: 10px;
-    text-align: center;
+    .search a {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    .forstudents {
+        margin-right: 0px;
+    }
+    .forlandlords {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 100px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -205px;
+    }
     
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    .student2, .landlord2 {
+        width: 100vw;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        background: white;
+    }
+    .design {
+        width: 100%;
+        height: 600px;
+        background: black;
+        margin: 10px auto;
+        display: inline-block;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .descrip {
+        width: 90%;
+        height: 50%;
+        color: white;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 0px;
+    }
+    .imagee {
+        width: 90%;
+        height: 60%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 0px lightblue;
+    }
+    .design p {
+        font-size: 19px;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: 15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .scriptdesc, .topcards, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    #detaillink {
+        width: 100%;
+        height: 100%;
+        background: red;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+
+
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .friendlydesc {
+        margin-bottom: 20px;
+        height: 400px;
+    }
+}
+@media (min-width: 375px) and (max-width: 389px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
+
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .logoname {
+        align-self: flex-start;
+    }
+
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    button:hover {
+        
+        cursor: pointer;
+    }
+
+    .servicescont {
+        width: 100vw;
+        height: 600px;
+        margin-bottom: 20px;
+        background: ivory;
+    }
+
+    .contimage {
+        width: 88vw;
+        height: 100%;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        display: inline-block;
+        border-radius: 15px;
+        vertical-align: middle;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    .forstudents, .forlandlords {
+        width: auto;
+        height: 250px;
+        box-shadow: 0px 0px 20px 0px grey;
+        border-radius: 10px;
+        margin: 0px auto;
+        background: ivory;
+        text-align: center;
+        
+    }
+
+    .forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #students {
+        width: 95vw;
+        height: auto;
+        margin: 30px auto;
+        margin-top: 0px;
+    }
+    #landlord {
+        width: 95vw;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .search a {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    .forstudents {
+        margin-right: 0px;
+    }
+    .forlandlords {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 100px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -182px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    .student2, .landlord2 {
+        width: 100vw;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        background: white;
+    }
+    .design {
+        width: 100%;
+        height: 600px;
+        background: black;
+        margin: 10px auto;
+        display: inline-block;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .descrip {
+        width: 90%;
+        height: 50%;
+        color: white;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 0px;
+    }
+    .imagee {
+        width: 90%;
+        height: 60%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 0px lightblue;
+    }
+    .design p {
+        font-size: 19px;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: 15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .scriptdesc, .topcards, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    #detaillink {
+        width: 100%;
+        height: 100%;
+        background: red;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+
+
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .friendlydesc {
+        margin-bottom: 20px;
+        height: 400px;
+    }
 }
 
-.forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
-    margin: 0px;
-    margin-bottom: 10px;
-}
-#students {
-    width: 95vw;
-    height: auto;
-    margin: 30px auto;
-}
-#landlord {
-    width: 95vw;
-    height: auto;
-    margin: 0px auto;
-}
+@media (min-width: 390px) and (max-width: 411px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
 
-.search a {
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
-    margin: 0px auto;
-}
-.forstudents {
-    margin-right: 0px;
-}
-.forlandlords {
-    margin-left: 20px;
-}
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .logoname {
+        align-self: flex-start;
+    }
+
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    button:hover {
+        
+        cursor: pointer;
+    }
+
+    .servicescont {
+        width: 100vw;
+        height: 600px;
+        margin-bottom: 20px;
+        background: ivory;
+    }
+
+    .contimage {
+        width: 88vw;
+        height: 100%;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        display: inline-block;
+        border-radius: 15px;
+        vertical-align: middle;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    .forstudents, .forlandlords {
+        width: auto;
+        height: 250px;
+        box-shadow: 0px 0px 20px 0px grey;
+        border-radius: 10px;
+        margin: 0px auto;
+        background: ivory;
+        text-align: center;
+        
+    }
+
+    .forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #students {
+        width: 95vw;
+        height: auto;
+        margin: 30px auto;
+        margin-top: 0px;
+    }
+    #landlord {
+        width: 95vw;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .search a {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    .forstudents {
+        margin-right: 0px;
+    }
+    .forlandlords {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 100px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -190px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    .student2, .landlord2 {
+        width: 100vw;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        background: white;
+    }
+    .design {
+        width: 100%;
+        height: 650px;
+        background: black;
+        margin: 10px auto;
+        display: inline-block;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .descrip {
+        width: 90%;
+        height: 50%;
+        color: white;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 0px;
+    }
+    .imagee {
+        width: 90%;
+        height: 60%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 0px lightblue;
+    }
+    .design p {
+        font-size: 19px;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: 15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .scriptdesc, .topcards, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    #detaillink {
+        width: 100%;
+        height: 100%;
+        background: red;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center;
+        margin-left: -40px; 
+    }
 
 
-.desc h1 {
-    margin-top: 80px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkblue;
-    font-size: 50px;
-}
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
 
-.desc p {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: whitesmoke;
-    font-size: 25px;
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .friendlydesc {
+        margin-bottom: 20px;
+        height: 400px;
+    }
 }
+@media (min-width: 360px) and (max-width: 374px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
 
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .logoname {
+        align-self: flex-start;
+    }
+
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    button:hover {
+        
+        cursor: pointer;
+    }
+
+    .servicescont {
+        width: 100vw;
+        height: 600px;
+        margin-bottom: 20px;
+        background: ivory;
+    }
+
+    .contimage {
+        width: 88vw;
+        height: 100%;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    
+    .desc {
+        width: 60vw;
+        height: auto;
+        padding-top: 5%;
+        margin: 0px auto;
+    }
+    .search {
+        font-family: sans-serif;
+        width: 75vw;
+        display: inline-block;
+        border-radius: 15px;
+        vertical-align: middle;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    .forstudents, .forlandlords {
+        width: auto;
+        height: 250px;
+        box-shadow: 0px 0px 20px 0px grey;
+        border-radius: 10px;
+        margin: 0px auto;
+        background: ivory;
+        text-align: center;
+        
+    }
+
+    .forlandlords h2, .forstudents h2, .forlandlords p, .forstudents p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #students {
+        width: 95vw;
+        height: auto;
+        margin: 30px auto;
+        margin-top: 0px;
+    }
+    #landlord {
+        width: 95vw;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .search a {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+    .forstudents {
+        margin-right: 0px;
+    }
+    .forlandlords {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 100px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -175px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    .student2, .landlord2 {
+        width: 100vw;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        background: white;
+    }
+    .design {
+        width: 100%;
+        height: 670px;
+        background: black;
+        margin: 10px auto;
+        display: inline-block;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .descrip {
+        width: 90%;
+        height: 50%;
+        color: white;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 0px;
+    }
+    .imagee {
+        width: 90%;
+        height: 60%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 0px lightblue;
+    }
+    .design p {
+        font-size: 19px;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: 15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .scriptdesc, .topcards, .tophouses {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    #detaillink {
+        width: 100%;
+        height: 100%;
+        background: red;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center;
+        margin-left: -40px; 
+    }
+
+
+    .desc h1 {
+        margin-top: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkblue;
+        font-size: 50px;
+    }
+
+    .desc p {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .friendlydesc {
+        margin-bottom: 20px;
+        height: 400px;
+    }
+}
