@@ -183,3 +183,43 @@ function login() {
     isLoggedIn = true;
     checkIfLoggedIn(isLoggedIn)
 }
+let menbtn = document.querySelector(".menubtn")
+function showpopup(num) {
+    if (num === 1) {
+        console.log("menbtn clicked")
+        menbtn.innerHTML = `
+        <style>
+            .popup {
+                position: fixed;
+                margin-top: 65px;
+                z-index: 1;
+                background: ivory;
+                padding: 20px;
+                width: 100vw;
+                margin-left: -5%;
+                height: auto;
+                display: inline-block;
+                text-align: left;
+            }
+        </style>
+        <button class="end2" onclick="showpopup(0)" style="background: url('sort.png'); background-size: cover; background-position: center;">
+                        
+                    </button>`
+    } else if (num === 0) {
+        console.log("menbtn clicked")
+        menbtn.innerHTML = `
+        <style>
+            .popup {
+                width: 100vw;
+                height: auto;
+                display: inline-block;
+                text-align: center;
+                display: none; 
+            }
+        </style>
+        <button class="end2" onclick="showpopup(1)" style="background: url('menu-bar.png'); background-size: cover; background-position: center;">
+                        
+                    </button>`
+    }
+    
+}
