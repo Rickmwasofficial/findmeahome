@@ -1,10 +1,10 @@
 let topPage = document.querySelector(".end");
 let isLoggedIn = Boolean;
 let availableHouses = [
-    '/public/pexels-carlos-diaz-709767.jpg',
-    '/public/pexels-max-rahubovskiy-6782581.jpg',
-    '/public/pexels-josh-sorenson-111093.jpg',
-    '/public/pexels-jovydas-dobilas-2462015.jpg'
+    'pexels-carlos-diaz-709767.jpg',
+    'pexels-max-rahubovskiy-6782581.jpg',
+    'pexels-josh-sorenson-111093.jpg',
+    'pexels-jovydas-dobilas-2462015.jpg'
 ]
 
 let housedetails = [
@@ -333,4 +333,44 @@ function apartments(image, curr) {
         
 }
 
-apartments('/public/pexels-carlos-diaz-709767.jpg', 0)
+apartments('pexels-carlos-diaz-709767.jpg', 0)
+let menbtn = document.querySelector(".menubtn")
+function showpopup(num) {
+    if (num === 1) {
+        console.log("menbtn clicked")
+        menbtn.innerHTML = `
+        <style>
+            .popup {
+                position: fixed;
+                margin-top: 65px;
+                z-index: 1;
+                background: ivory;
+                padding: 20px;
+                width: 100vw;
+                margin-left: -5%;
+                height: auto;
+                display: inline-block;
+                text-align: left;
+            }
+        </style>
+        <button class="end2" onclick="showpopup(0)" style="background: url('sort.png'); background-size: cover; background-position: center;">
+                        
+                    </button>`
+    } else if (num === 0) {
+        console.log("menbtn clicked")
+        menbtn.innerHTML = `
+        <style>
+            .popup {
+                width: 100vw;
+                height: auto;
+                display: inline-block;
+                text-align: center;
+                display: none; 
+            }
+        </style>
+        <button class="end2" onclick="showpopup(1)" style="background: url('menu-bar.png'); background-size: cover; background-position: center;">
+                        
+                    </button>`
+    }
+    
+}
