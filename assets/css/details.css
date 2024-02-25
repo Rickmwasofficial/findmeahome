@@ -604,7 +604,7 @@ body {
 }
 
 
-@media (min-width: 112px) and (max-width: 819px) {
+@media (min-width: 412px) and (max-width: 819px) {
     .secondbody {
         width: 100vw;
         overflow-x: hidden;
@@ -624,7 +624,7 @@ body {
     }
     
     .moreimage {
-        width: 100vw;
+        width: 98%;
         height: auto;
         background: ivory;
         margin: 0px auto;
@@ -634,7 +634,7 @@ body {
     }
     
     .leftforimage {
-        width: 100vw;
+        width: 100%;
         height: auto;
         background: ivory;
         margin: 7px 5px;
@@ -642,7 +642,7 @@ body {
     }
     
     .rightfordetails {
-        width: 100vw;
+        width: 100%;
         height: 500px;
         background: ivory;
         margin: 7px 5px;
@@ -655,12 +655,11 @@ body {
     }
     
     .rightfordetails div {
-        width: 42%;
-        height: 190px;
+        width: 49%;
+        height: 230px;
         background: black;
         margin: 2px;
         margin-top: 0px;
-        background-position: center;
         margin-bottom: 0px;
     }
     
@@ -807,6 +806,7 @@ body {
         background: ivory;
         z-index: 1;
         margin-top: -15px;
+        margin-left: -215px;
     }
     
     .menubtn {
@@ -939,3 +939,1013 @@ body {
         width: 0px; height: 0px;
     }
 }
+
+
+
+@media (min-width: 375px) and (max-width: 389px) {
+    .secondbody {
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        margin: 0px auto;
+    }
+    
+    .detailscont {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 5px;
+        margin: 0px auto;
+        margin-top: 56px;
+    }
+    
+    .moreimage {
+        width: 98%;
+        height: auto;
+        background: ivory;
+        margin: 0px auto;
+        display: inline-block;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .leftforimage {
+        width: 100%;
+        height: auto;
+        background: ivory;
+        margin: 7px 5px;
+        margin-left: 0px;
+    }
+    
+    .rightfordetails {
+        width: 100%;
+        height: 500px;
+        background: ivory;
+        margin: 7px 5px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: -5px;
+        padding-left: 2px;
+    }
+    
+    .rightfordetails div {
+        width: 48%;
+        height: 230px;
+        background: black;
+        margin: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .contdet {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: -25px;
+        margin-top: -50px;
+    }
+    
+    .morecont {
+        width: 92vw;
+        height: 98%;
+        margin: 0px auto;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .textdet {
+        background: ivory;
+        width: 100%;
+        padding-left: 20px;
+        display: inline-block;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+    }
+    .book {
+        background: ivory;
+        width: 98%;
+        padding-right: 1%;
+        padding-left: 2%;
+        height: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .bookdiv {
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        background: whitesmoke;
+        display: inline-block;
+        margin: 0px auto;
+        border: 1px solid rgb(139, 139, 139);
+        padding-top: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+    
+    .in {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: left;
+        margin: 7px auto;
+        border: 1px solid rgb(139, 139, 139);
+        text-align: left;
+        padding: 10px;
+    
+    }
+    .in b {
+        margin: auto 0px;
+    }
+    
+    .bookbutton {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: green;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .addcart {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: rgb(128, 193, 219);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .report {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: red;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .reviewer {
+        background: ivory;
+        width: 100%;
+        display: inline-flex;
+        padding-right: 20px;
+    }
+    
+    .reveiwerdet b {
+        margin: auto 0px;
+        padding-left: 20px;
+    }
+    
+    .reviewerdet {
+        width: auto;
+        height: 100px;
+        display: block;
+        text-align: left;
+    }
+    
+    .reviewer img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        border-radius: 35px;
+        margin-top: -5px;
+        background-color: rgb(230, 226, 226);
+    }
+    
+    .showreviews {
+        background: none;
+        border: none;
+        font-size: 18px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -192px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+        margin-left: -215px;
+    }
+    
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname{
+        display: none;
+        width: 0px; height: 0px;
+    }
+}
+@media (min-width: 390px) and (max-width: 411px) {
+    .secondbody {
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        margin: 0px auto;
+    }
+    
+    .detailscont {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 5px;
+        margin: 0px auto;
+        margin-top: 56px;
+    }
+    
+    .moreimage {
+        width: 98%;
+        height: auto;
+        background: ivory;
+        margin: 0px auto;
+        display: inline-block;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .leftforimage {
+        width: 100%;
+        height: auto;
+        background: ivory;
+        margin: 7px 5px;
+        margin-left: 0px;
+    }
+    
+    .rightfordetails {
+        width: 100%;
+        height: 500px;
+        background: ivory;
+        margin: 7px 5px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: -5px;
+        padding-left: 2px;
+    }
+    
+    .rightfordetails div {
+        width: 48%;
+        height: 230px;
+        background: black;
+        margin: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .contdet {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: -25px;
+        margin-top: -50px;
+    }
+    
+    .morecont {
+        width: 92vw;
+        height: 98%;
+        margin: 0px auto;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .textdet {
+        background: ivory;
+        width: 100%;
+        padding-left: 20px;
+        display: inline-block;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+    }
+    .book {
+        background: ivory;
+        width: 98%;
+        padding-right: 1%;
+        padding-left: 2%;
+        height: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .bookdiv {
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        background: whitesmoke;
+        display: inline-block;
+        margin: 0px auto;
+        border: 1px solid rgb(139, 139, 139);
+        padding-top: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+    
+    .in {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: left;
+        margin: 7px auto;
+        border: 1px solid rgb(139, 139, 139);
+        text-align: left;
+        padding: 10px;
+    
+    }
+    .in b {
+        margin: auto 0px;
+    }
+    
+    .bookbutton {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: green;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .addcart {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: rgb(128, 193, 219);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .report {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: red;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .reviewer {
+        background: ivory;
+        width: 100%;
+        display: inline-flex;
+        padding-right: 20px;
+    }
+    
+    .reveiwerdet b {
+        margin: auto 0px;
+        padding-left: 20px;
+    }
+    
+    .reviewerdet {
+        width: auto;
+        height: 100px;
+        display: block;
+        text-align: left;
+    }
+    
+    .reviewer img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        border-radius: 35px;
+        margin-top: -5px;
+        background-color: rgb(230, 226, 226);
+    }
+    
+    .showreviews {
+        background: none;
+        border: none;
+        font-size: 18px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -199px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+        margin-left: -215px;
+    }
+    
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname{
+        display: none;
+        width: 0px; height: 0px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+    .secondbody {
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        margin: 0px auto;
+    }
+    
+    .detailscont {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 5px;
+        margin: 0px auto;
+        margin-top: 56px;
+    }
+    
+    .moreimage {
+        width: 98%;
+        height: auto;
+        background: ivory;
+        margin: 0px auto;
+        display: inline-block;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .leftforimage {
+        width: 100%;
+        height: auto;
+        background: ivory;
+        margin: 7px 5px;
+        margin-left: 0px;
+    }
+    
+    .rightfordetails {
+        width: 100%;
+        height: 500px;
+        background: ivory;
+        margin: 7px 5px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: -5px;
+        padding-left: 2px;
+    }
+    
+    .rightfordetails div {
+        width: 48%;
+        height: 230px;
+        background: black;
+        margin: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .contdet {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: -25px;
+        margin-top: -50px;
+    }
+    
+    .morecont {
+        width: 92vw;
+        height: 98%;
+        margin: 0px auto;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .textdet {
+        background: ivory;
+        width: 100%;
+        padding-left: 20px;
+        display: inline-block;
+        text-align: left;
+        height: auto;
+        margin: 0px auto;
+    }
+    .book {
+        background: ivory;
+        width: 98%;
+        padding-right: 1%;
+        padding-left: 2%;
+        height: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .bookdiv {
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        background: whitesmoke;
+        display: inline-block;
+        margin: 0px auto;
+        border: 1px solid rgb(139, 139, 139);
+        padding-top: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+    
+    .in {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: left;
+        margin: 7px auto;
+        border: 1px solid rgb(139, 139, 139);
+        text-align: left;
+        padding: 10px;
+    
+    }
+    .in b {
+        margin: auto 0px;
+    }
+    
+    .bookbutton {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: green;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .addcart {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: rgb(128, 193, 219);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .report {
+        width: 97%;
+        height: auto;
+        padding: 20px;
+        border: none;
+        margin: 5px auto;
+        background: red;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .reviewer {
+        background: ivory;
+        width: 100%;
+        display: inline-flex;
+        padding-right: 20px;
+    }
+    
+    .reveiwerdet b {
+        margin: auto 0px;
+        padding-left: 20px;
+    }
+    
+    .reviewerdet {
+        width: auto;
+        height: 100px;
+        display: block;
+        text-align: left;
+    }
+    
+    .reviewer img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        border-radius: 35px;
+        margin-top: -5px;
+        background-color: rgb(230, 226, 226);
+    }
+    
+    .showreviews {
+        background: none;
+        border: none;
+        font-size: 18px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -183px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+        margin-left: -215px;
+    }
+    
+    .top, .cont, .footer, .ndfooter, .leftfooter, .end, .top .logoname{
+        display: none;
+        width: 0px; height: 0px;
+    }
+}
+
