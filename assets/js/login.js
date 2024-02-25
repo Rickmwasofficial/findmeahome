@@ -181,12 +181,13 @@ function showcreate() {
     <style>
     /*start*/
     .logincont {
-        width: 400px;
+        width: 98vw;
         height: 520px;
         margin: 30px auto;
         background: white;
         border: 2px solid black;
         border-radius: 20px;
+        margin-top: 80px;
     }
     
     .logincreate {
@@ -246,6 +247,17 @@ function showcreate() {
     .logincont b {
         font-size: 20px;
     }
+    @media (min-width: 375px) and (max-height: 411px) {
+        .logincont {
+            width: 98vw;
+            height: 480px;
+            margin: 30px auto;
+            background: white;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin-top: 80px;
+        }
+    }
     
     </style>
                 <div class="logincreate">
@@ -296,13 +308,15 @@ function showlogin(){
     createLogin.innerHTML = `
     <style>
     /*start*/
+    
     .logincont {
-        width: 400px;
+        width: 98vw;
         height: 480px;
         margin: 30px auto;
         background: white;
         border: 2px solid black;
         border-radius: 20px;
+        margin-top: 80px;
     }
     
     .logincreate {
@@ -359,6 +373,17 @@ function showlogin(){
         border-radius: 5px;
         color: white;
     }
+    @media (min-width: 375px) and (max-height: 411px) {
+        .logincont {
+            width: 300px;
+            height: 480px;
+            margin: 30px auto;
+            background: white;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin-top: 80px;
+        }
+    }
     
     </style>
                 <div class="logincreate">
@@ -383,4 +408,47 @@ function logout() {
 function login() {
     isLoggedIn = true;
     checkIfLoggedIn(isLoggedIn)
+}
+let menbtn = document.querySelector(".menubtn")
+function showpopup(num) {
+    if (num === 1) {
+        console.log("menbtn clicked")
+        menbtn.innerHTML = `
+        <style>
+            .popup {
+                position: fixed;
+                margin-top: 65px;
+                z-index: 1;
+                background: ivory;
+                padding: 20px;
+                width: 100vw;
+                margin-left: -50%;
+                height: auto;
+                display: inline-block;
+                text-align: left;
+            }
+            .popup a {
+                padding-bottom: 20px;
+            }
+        </style>
+        <button class="end2" onclick="showpopup(0)" style="background: url('sort.png'); background-size: cover; background-position: center;">
+                        
+                    </button>`
+    } else if (num === 0) {
+        console.log("menbtn clicked")
+        menbtn.innerHTML = `
+        <style>
+            .popup {
+                width: 100vw;
+                height: auto;
+                display: inline-block;
+                text-align: center;
+                display: none; 
+            }
+        </style>
+        <button class="end2" onclick="showpopup(1)" style="background: url('menu-bar.png'); background-size: cover; background-position: center;">
+                        
+                    </button>`
+    }
+    
 }
