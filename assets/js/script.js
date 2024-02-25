@@ -159,7 +159,7 @@ function apartments(num, image, curr) {
                     margin-top: 93%;
                     border: none;
                 }
-                @media (min-width: 100px) and (max-width: 819px) {
+                @media (min-width: 412px) and (max-width: 819px) {
                     abbr button {
                         border: none;
                         margin: 0px auto;
@@ -177,7 +177,7 @@ function apartments(num, image, curr) {
                         height: 10%;
                         margin: 10px;
                         border-radius: 48.9%;
-                        margin-top: 38%;
+                        margin-top: 58%;
                         border: none;
                     }
                 }
@@ -247,7 +247,7 @@ function apartments(num, image, curr) {
                         border: none;
                         margin: 0px auto;
                     }
-                    @media (min-width: 100px) and (max-width: 819px) {
+                    @media (min-width: 412px) and (max-width: 819px) {
                         abbr button {
                             border: none;
                             margin: 0px auto;
@@ -265,7 +265,7 @@ function apartments(num, image, curr) {
                             height: 10%;
                             margin: 10px;
                             border-radius: 48.9%;
-                            margin-top: 38%;
+                            margin-top: 58%;
                             border: none;
                         }
                     }
@@ -353,3 +353,4 @@ function showpopup(num) {
     }
     
 }
+
