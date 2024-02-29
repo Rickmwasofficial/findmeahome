@@ -127,7 +127,7 @@ body {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -138,11 +138,33 @@ body {
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -195,6 +217,7 @@ body {
         margin: 0px auto;
         margin-top: -80px;
         color: darkblue;
+        display: none;
     }
     
     .apartment {
@@ -204,8 +227,9 @@ body {
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
+        margin-top: -280px;
     }
-    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses {
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses, .topcardsdetail2, .small {
         display: none;
         width: 0px;
         height: 0px;
@@ -266,7 +290,7 @@ body {
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses {
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses, .small {
         display: none;
         width: 0px;
         height: 0px;
@@ -323,6 +347,7 @@ body {
     }
     .apartment {
         padding-left: 34px;
+        margin-top: -80px;
     }
     .top {
         display: inline-flex;
@@ -392,7 +417,7 @@ body {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -403,11 +428,33 @@ body {
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -575,11 +622,11 @@ body {
     }
     .cardfull {
         display: block;
-        width: 80%;
+        width: 90%;
         text-align: center;
         border-radius: 22px;
         background: ivory;
-        height: 470px;
+        height: 370px;
         position: relative;
         margin: 0px auto;
     }
@@ -591,7 +638,7 @@ body {
         padding: 5px;
         
         margin: 0px auto;
-        height: 100px;
+        height: 80px;
         position: fixed;
         background: ivory;
         z-index: 1;
@@ -632,9 +679,10 @@ body {
         width: 85vw;
         background: ivory;
         display: inline-block;
-        border-radius: 15px;
-        height: auto;
-        margin-left: 6.5vw;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 85vh;
+        margin-left: -5px;
         box-shadow: 0px 0px 20px 0px grey;
     }
     .roomprice, .countyloc {
@@ -673,7 +721,7 @@ body {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -684,11 +732,33 @@ body {
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -829,19 +899,40 @@ body {
     }
     .search2 {
         padding: 10px;
-        margin-top: 85px;
+        margin-top: 60px;
     }
-    
+    .searchbtn2 {
+        width: 90%;
+        padding-top: 20px;
+        height: 140px;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
     .entiresearch2 {
-        width: 85vw;
+        width: 50%;
         height: 60px;
         margin: 35px auto;
         border-radius: 15px;
         border: none;
         background: rgb(128, 193, 219);
         color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .smallbtn:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    .close {
+        width: 45%;
+        height: 60px;
+        margin: 35px auto;
+        border-radius: 15px;
+        background: none;
+        border: 2px solid rgb(128, 193, 219);
+        padding-bottom: 20px;
+        margin: 10px;
     }
     .actualdetail2 {
         color: rgb(128, 193, 219);
@@ -870,12 +961,26 @@ body {
     select2 option {
         font-size: 17px;
     }
-    .top, .cont, .footer {
+    .small {
+        width: 100vw;
+        height: auto;
+        text-align: right;
+        
+    }
+    .smallbtn {
+        height: 50px;
+        border: none;
+        background: none;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
+    .top, .cont, .footer, .search2 {
         display: none;
     }
 }
 
 @media (min-width: 375px) and (max-width: 411px) {
+    
     body {
         width: 100vw;
         overflow-x: hidden;
@@ -926,11 +1031,11 @@ body {
     }
     .cardfull {
         display: block;
-        width: 80%;
+        width: 90%;
         text-align: center;
         border-radius: 22px;
         background: ivory;
-        height: 470px;
+        height: 370px;
         position: relative;
         margin: 0px auto;
     }
@@ -942,7 +1047,7 @@ body {
         padding: 5px;
         
         margin: 0px auto;
-        height: 100px;
+        height: 80px;
         position: fixed;
         background: ivory;
         z-index: 1;
@@ -983,18 +1088,11 @@ body {
         width: 85vw;
         background: ivory;
         display: inline-block;
-        border-radius: 15px;
-        height: auto;
-        margin-left: 6.5vw;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 85vh;
+        margin-left: -5px;
         box-shadow: 0px 0px 20px 0px grey;
-    }
-    .roomprice, .countyloc {
-        width: 100vw;
-        margin: 0px auto;
-        display: inline-flex;
-        justify-content: space-between;
-        text-align: center;
-        padding-left: 5vw;
     }
     .search2 div {
         width: 85vw;
@@ -1002,13 +1100,17 @@ body {
         height: auto;
         margin: 0px auto;
         margin-top: 8px;
+        margin-left: 20px;
     }
     
     .search2 p, .search2 button {
         padding: 0px;
         margin: 0px;
     }
-    
+    .search2 .searchbtn2 {
+        padding: 0px;
+        margin-left: 10px;
+    }
     .searchtitle {
         padding-top: 2%;
         color: grey;
@@ -1024,7 +1126,7 @@ body {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -1035,11 +1137,33 @@ body {
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -1095,6 +1219,19 @@ body {
         color: darkblue;
     }
     
+    .small {
+        width: 100vw;
+        height: auto;
+        text-align: right;
+        
+    }
+    .smallbtn {
+        height: 50px;
+        border: none;
+        background: none;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
     .apartment {
         width: 100vw;
         height: auto;
@@ -1103,7 +1240,7 @@ body {
         margin-bottom: 10px;
         overflow-x: hidden;
         overflow-y: hidden;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .footer2 {
         width: 100vw;
@@ -1180,23 +1317,43 @@ body {
     }
     .search2 {
         padding: 10px;
-        margin-top: 85px;
+        margin-top: 60px;
     }
-    
+    .searchbtn2 {
+        width: 90%;
+        padding-top: 20px;
+        height: 140px;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
     .entiresearch2 {
-        width: 85vw;
+        width: 50%;
         height: 60px;
         margin: 35px auto;
         border-radius: 15px;
         border: none;
         background: rgb(128, 193, 219);
         color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 18px;
+        margin-top: 20px;
     }
     .actualdetail2 {
         color: rgb(128, 193, 219);
         font-size: 20px;
+    }
+    .smallbtn:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    .close {
+        width: 45%;
+        height: 60px;
+        margin: 35px auto;
+        border-radius: 15px;
+        background: none;
+        border: 2px solid rgb(128, 193, 219);
+        padding-bottom: 20px;
+        margin: 10px;
     }
     select2 {
         border: none;
@@ -1221,7 +1378,7 @@ body {
     select2 option {
         font-size: 17px;
     }
-    .top, .cont, .footer {
+    .top, .cont, .footer, .search2 {
         display: none;
     }
 }
@@ -1277,11 +1434,11 @@ body {
     }
     .cardfull {
         display: block;
-        width: 80%;
+        width: 90%;
         text-align: center;
         border-radius: 22px;
         background: ivory;
-        height: 470px;
+        height: 370px;
         position: relative;
         margin: 0px auto;
     }
@@ -1293,7 +1450,7 @@ body {
         padding: 5px;
         
         margin: 0px auto;
-        height: 100px;
+        height: 80px;
         position: fixed;
         background: ivory;
         z-index: 1;
@@ -1331,12 +1488,13 @@ body {
     
     .search2 {
         font-family: sans-serif;
-        width: 90vw;
+        width: 85vw;
         background: ivory;
         display: inline-block;
-        border-radius: 15px;
-        height: auto;
-        margin-left: 4.5vw;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 85vh;
+        margin-left: -5px;
         box-shadow: 0px 0px 20px 0px grey;
     }
     .roomprice, .countyloc {
@@ -1375,7 +1533,7 @@ body {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -1386,11 +1544,33 @@ body {
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -1531,19 +1711,40 @@ body {
     }
     .search2 {
         padding: 10px;
-        margin-top: 85px;
+        margin-top: 60px;
     }
-    
+    .searchbtn2 {
+        width: 90%;
+        padding-top: 20px;
+        height: 140px;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
     .entiresearch2 {
-        width: 85vw;
+        width: 50%;
         height: 60px;
         margin: 35px auto;
         border-radius: 15px;
         border: none;
         background: rgb(128, 193, 219);
         color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .smallbtn:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    .close {
+        width: 45%;
+        height: 60px;
+        margin: 35px auto;
+        border-radius: 15px;
+        background: none;
+        border: 2px solid rgb(128, 193, 219);
+        padding-bottom: 20px;
+        margin: 10px;
     }
     .actualdetail2 {
         color: rgb(128, 193, 219);
@@ -1572,7 +1773,20 @@ body {
     select2 option {
         font-size: 17px;
     }
-    .top, .cont, .footer {
+    .small {
+        width: 100vw;
+        height: auto;
+        text-align: right;
+        
+    }
+    .smallbtn {
+        height: 50px;
+        border: none;
+        background: none;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
+    .top, .cont, .footer, .search2 {
         display: none;
     }
 }
@@ -1627,11 +1841,11 @@ body {
     }
     .cardfull {
         display: block;
-        width: 80%;
+        width: 90%;
         text-align: center;
         border-radius: 22px;
         background: ivory;
-        height: 420px;
+        height: 370px;
         position: relative;
         margin: 0px auto;
     }
@@ -1643,7 +1857,7 @@ body {
         padding: 5px;
         
         margin: 0px auto;
-        height: 100px;
+        height: 80px;
         position: fixed;
         background: ivory;
         z-index: 1;
@@ -1681,12 +1895,13 @@ body {
     
     .search2 {
         font-family: sans-serif;
-        width: 90vw;
+        width: 85vw;
         background: ivory;
         display: inline-block;
-        border-radius: 15px;
-        height: auto;
-        margin-left: 4.5vw;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 85vh;
+        margin-left: -5px;
         box-shadow: 0px 0px 20px 0px grey;
     }
     .roomprice, .countyloc {
@@ -1725,7 +1940,7 @@ body {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -1736,11 +1951,33 @@ body {
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -1881,19 +2118,41 @@ body {
     }
     .search2 {
         padding: 10px;
-        margin-top: 85px;
+        margin-top: 60px;
+        border: 2px solid black;
     }
-    
+    .searchbtn2 {
+        width: 90%;
+        padding-top: 20px;
+        height: 140px;
+        margin: 0px auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
     .entiresearch2 {
-        width: 85vw;
+        width: 50%;
         height: 60px;
         margin: 35px auto;
         border-radius: 15px;
         border: none;
         background: rgb(128, 193, 219);
         color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .smallbtn:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    .close {
+        width: 45%;
+        height: 60px;
+        margin: 35px auto;
+        border-radius: 15px;
+        background: none;
+        border: 2px solid rgb(128, 193, 219);
+        padding-bottom: 20px;
+        margin: 10px;
     }
     .actualdetail2 {
         color: rgb(128, 193, 219);
@@ -1922,7 +2181,20 @@ body {
     select2 option {
         font-size: 17px;
     }
-    .top, .cont, .footer {
+    .small {
+        width: 100vw;
+        height: auto;
+        text-align: right;
+        
+    }
+    .smallbtn {
+        height: 50px;
+        border: none;
+        background: none;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
+    .top, .cont, .footer, .search2 {
         display: none;
     }
 }
