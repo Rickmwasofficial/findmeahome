@@ -10,45 +10,57 @@ let availableHouses = [
 function checkIfLoggedIn(state) {
     if (state) {
         topPage.innerHTML = `
-            <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
-            <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
-            <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
-            <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a>
-            <button class="login" onclick="logout()">
-                <style>
-                    .end svg {
-                        margin: auto 0px;
-                        margin: 10px;
-                        color: white;
-                    }
-                    .end p {
-                        margin-left: 5px;
-                    }
-                    .login {
-                        width: auto;
-                        border-radius: 10px;
-                    }
-                </style>
-                <!--Import the profile temolate from bootstrap-->
-                <abbr title="Your Cart">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
-                </abbr> 
-            </button>
-    `;
-    } else {
-        topPage.innerHTML = `
-            <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
-            <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
-            <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
-            <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a>
+        <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
+        <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
+        <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
+        
+        <a href="login.html">
+            <button class="signin" onclick="login()">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p class="txt">Sign in</p>
+                
+            </button></a>
+        <a href="login.html">
             <button class="login" onclick="login()">
-                <!--Import the profile temolate from bootstrap-->
+                
                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
                 </svg>
                 <p class="txt">Create account</p>
-            </button>
+                
+            </button></a>
+    `;
+    } else {
+        topPage.innerHTML = `
+        <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
+        <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
+        <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
+        
+        <a href="login.html">
+            <button class="signin" onclick="login()">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p class="txt">Sign in</p>
+                
+            </button></a>
+        <a href="login.html">
+            <button class="login" onclick="login()">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p class="txt">Create account</p>
+                
+            </button></a>
     `
     }
 }
@@ -102,19 +114,19 @@ topcards.innerHTML = `
     <div class="scriptdesc"><h1>Our top most rated houses.</h1> <h1><a href="#">More</a></h1></div>
     
     <div class="topcards">
-        <div class="card1 card" style="background: url('/public/pexels-carlos-diaz-709767.jpg'); background-size: cover; background-position: center;">
+        <div class="card1 card" style="background: url('pexels-carlos-diaz-709767.jpg'); background-size: cover; background-position: center;">
             <div class="topcardsdetail2">
                 <h2>JC-FELT</h2>
                 <h2>County: Embu</h2>
             </div>
         </div>
-        <div class="card2 card" style="background: url('/public/pexels-carlos-diaz-709767.jpg'); background-size: cover; background-position: center;">
+        <div class="card2 card" style="background: url('pexels-carlos-diaz-709767.jpg'); background-size: cover; background-position: center;">
             <div class="topcardsdetail">
                 <h2>JC-FELT</h2>
                 <h2>County: Embu</h2>
             </div>
         </div>
-        <div class="card3 card" style="background: url('/public/pexels-carlos-diaz-709767.jpg'); background-size: cover; background-position: center;">
+        <div class="card3 card" style="background: url('pexels-carlos-diaz-709767.jpg'); background-size: cover; background-position: center;">
             <div class="topcardsdetail2">
                 <h2>JC-FELT</h2>
                 <h2>County: Embu</h2>
@@ -133,7 +145,11 @@ function change(direction, cardnum, currentCount) {
     } else if (direction == "back" && currentCount > 0) {
         currentCount -= 1
         apartments(cardnum, availableHouses[currentCount], currentCount)
-    }   
+    } else if (direction == "front" && currentCount === 3) {
+        apartments(availableHouses[0], 0)
+    } else if (direction == "back" && currentCount === 0) {
+        apartments(availableHouses[3], 3)
+    }
 }
 
 function apartments(num, image, curr) {
@@ -153,34 +169,13 @@ function apartments(num, image, curr) {
                 #front, #back {
                     background: white;
                     width: 10%;
-                    height: 10%;
+                    height: 12%;
                     margin: 10px;
-                    border-radius: 48.9%;
-                    margin-top: 93%;
+                    border-radius: 45.9%;
+                    margin-top: 53%;
                     border: none;
                 }
-                @media (min-width: 412px) and (max-width: 819px) {
-                    abbr button {
-                        border: none;
-                        margin: 0px auto;
-                    }
-                    abbr {
-                        width: auto;
-                        height: auto;
-                        margin-top: 78%;
-                        margin-left: -40px;
-                        border: none;
-                    }
-                    #front, #back {
-                        background: white;
-                        width: 10%;
-                        height: 10%;
-                        margin: 10px;
-                        border-radius: 48.9%;
-                        margin-top: 58%;
-                        border: none;
-                    }
-                }
+                
                 .cardimage${num} {
                     width: 100%;
                     height: 75%;
@@ -230,10 +225,10 @@ function apartments(num, image, curr) {
                     #front, #back {
                         background: white;
                         width: 10%;
-                        height: 10%;
+                        height: 12%;
                         margin: 10px;
-                        border-radius: 48.9%;
-                        margin-top: 93%;
+                        border-radius: 45.9%;
+                        margin-top: 53%;
                         border: none;
                     }
                     abbr {
@@ -247,28 +242,7 @@ function apartments(num, image, curr) {
                         border: none;
                         margin: 0px auto;
                     }
-                    @media (min-width: 412px) and (max-width: 819px) {
-                        abbr button {
-                            border: none;
-                            margin: 0px auto;
-                        }
-                        abbr {
-                            width: auto;
-                            height: auto;
-                            margin-top: 78%;
-                            margin-left: -40px;
-                            border: none;
-                        }
-                        #front, #back {
-                            background: white;
-                            width: 10%;
-                            height: 10%;
-                            margin: 10px;
-                            border-radius: 48.9%;
-                            margin-top: 58%;
-                            border: none;
-                        }
-                    }
+                    
                     .cardimage${i} {
                         width: 100%;
                         height: 75%;
@@ -321,7 +295,7 @@ function showpopup(num) {
         <style>
             .popup {
                 position: fixed;
-                margin-top: 65px;
+                margin-top: 53px;
                 z-index: 1;
                 background: ivory;
                 padding: 20px;
@@ -331,10 +305,28 @@ function showpopup(num) {
                 display: inline-block;
                 text-align: left;
             }
+            .menubtn {
+                display: inline-flex;
+                justify-content: space-between;
+                height: auto;
+                vertical-align: middle;
+            }
+            #closer {
+                margin: auto 0px;
+                margin-top: 45%;
+                margin-right: 4px;
+            }
+            
+            
         </style>
+        <p id="closer">Close</p>
         <button class="end2" onclick="showpopup(0)" style="background: url('sort.png'); background-size: cover; background-position: center;">
                         
                     </button>`
+            document.querySelector('.small').innerHTML = `
+            <button class="smallbtn" onclick="filter()"><p></p>Filter & Search</p></button>
+            
+        `
     } else if (num === 0) {
         console.log("menbtn clicked")
         menbtn.innerHTML = `
@@ -346,11 +338,50 @@ function showpopup(num) {
                 text-align: center;
                 display: none; 
             }
+            
         </style>
+        
         <button class="end2" onclick="showpopup(1)" style="background: url('menu-bar.png'); background-size: cover; background-position: center;">
-                        
+           
                     </button>`
+            document.querySelector('.small').innerHTML = `
+            <button class="smallbtn" onclick="filter()"><p></p>Filter & Search</p></button>
+            
+        `
     }
     
+}
+
+function filter() {
+    document.querySelector('.small').innerHTML += `
+        <style>
+            .search2 {
+                font-family: sans-serif;
+                width: 90vw;
+                background: ivory;
+                display: inline-block;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                height: auto;
+                margin-left: -5px;
+                box-shadow: 0px 0px 20px 0px grey;
+            }
+            .small {
+                display: none;
+                width: 0px;
+                height: 0px;
+            }
+            .body {
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+        </style>
+    `
+}
+function closefilter() {
+    document.querySelector('.small').innerHTML = `
+        <button class="smallbtn" onclick="filter()"><p></p>Filter & Search</p></button>
+        
+    `
 }
 
