@@ -9,7 +9,9 @@ body {
 }
 .secondbody {
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
+    position: fixed;
+    overflow-y: scroll;
     height: auto;
     background: ivory;
     text-align: center;
