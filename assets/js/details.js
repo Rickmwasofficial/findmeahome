@@ -374,7 +374,7 @@ function apartments(image, curr) {
         
 }
 
-apartments('/public/pexels-carlos-diaz-709767.jpg', 0)
+apartments('pexels-carlos-diaz-709767.jpg', 0)
 let menbtn = document.querySelector(".menubtn")
 function showpopup(num) {
     if (num === 1) {
