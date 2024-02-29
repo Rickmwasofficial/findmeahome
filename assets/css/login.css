@@ -1,4 +1,4 @@
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
     body {
         overflow-x: hidden;
         width: 100%;
@@ -45,7 +45,7 @@
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -56,11 +56,33 @@
         color: white; 
         padding-left: 6px;
     }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
     
     .txt {
-        padding-left: 6px;
+        padding-left: 3px;
         padding-bottom: 10px;
         padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     button:hover {
@@ -214,7 +236,7 @@
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -224,6 +246,34 @@
         background: rgb(128, 193, 219);
         color: white; 
         padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     
@@ -441,7 +491,7 @@
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -451,6 +501,34 @@
         background: rgb(128, 193, 219);
         color: white; 
         padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     
@@ -667,7 +745,7 @@
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -677,6 +755,34 @@
         background: rgb(128, 193, 219);
         color: white; 
         padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     
@@ -888,12 +994,11 @@
         text-align: center;
     }
     
-    
     .login {
         display: inline-flex;
         border-radius: 20px;
         border: none;
-        width: 150px;
+        width: 140px;
         height: 50px;
         margin: 15px;
         margin-right: 0px;
@@ -903,6 +1008,34 @@
         background: rgb(128, 193, 219);
         color: white; 
         padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
     }
     
     
