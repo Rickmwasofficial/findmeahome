@@ -227,7 +227,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        margin-top: -280px;
+        margin-top: -80px;
     }
     .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses, .topcardsdetail2, .small {
         display: none;
