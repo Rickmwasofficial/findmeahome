@@ -1,13 +1,20 @@
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+    min-width: 100vw;
+    max-width: 100vw;
+    background: ivory;
+    text-align: center;
+}
+.secondbody {
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+    background: ivory;
+    text-align: center;
+}
 @media (min-width: 1024px) {
-
-    body {
-        overflow-x: hidden;
-        width: 100%;
-        height: auto;
-        background: ivory;
-        text-align: center;
-    }
-
     .top {
         display: inline-flex;
         margin: -10px;
@@ -273,14 +280,6 @@
 }
 
 @media (min-width: 412px) and (max-width: 819px) {
-    body {
-        overflow-x: hidden;
-        width: 100%;
-        height: auto;
-        background: ivory;
-        text-align: center;
-    }
-
     .top {
         display: inline-flex;
         margin: -10px;
@@ -488,7 +487,7 @@
     }
     .descrip {
         width: 90%;
-        height: 50%;
+        height: 45%;
         color: white;
         text-align: left;
         padding-left: 25px;
@@ -609,13 +608,6 @@
     }
 }
 @media (min-width: 375px) and (max-width: 389px) {
-    body {
-        overflow-x: hidden;
-        width: 100%;
-        height: auto;
-        background: ivory;
-        text-align: center;
-    }
 
     .top {
         display: inline-flex;
@@ -823,7 +815,7 @@
     }
     .descrip {
         width: 90%;
-        height: 50%;
+        height: 45%;
         color: white;
         text-align: left;
         padding-left: 25px;
@@ -946,14 +938,6 @@
 }
 
 @media (min-width: 390px) and (max-width: 411px) {
-    body {
-        overflow-x: hidden;
-        width: 100%;
-        height: auto;
-        background: ivory;
-        text-align: center;
-    }
-
     .top {
         display: inline-flex;
         margin: -10px;
@@ -1161,7 +1145,7 @@
     }
     .descrip {
         width: 90%;
-        height: 50%;
+        height: 45%;
         color: white;
         text-align: left;
         padding-left: 25px;
@@ -1284,14 +1268,6 @@
     }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-    body {
-        overflow-x: hidden;
-        width: 100%;
-        height: auto;
-        background: ivory;
-        text-align: center;
-    }
-
     .top {
         display: inline-flex;
         margin: -10px;
@@ -1498,7 +1474,7 @@
     }
     .descrip {
         width: 90%;
-        height: 50%;
+        height: 45%;
         color: white;
         text-align: left;
         padding-left: 25px;
