@@ -26,7 +26,7 @@ house.innerHTML = `
             .bookdirect {
                 position: fixed;
                 margin: 0px auto;
-                margin-top: 80vh;
+                margin-top: 70vh;
                 background: white;
                 width: 120px;
                 height: 30px;
