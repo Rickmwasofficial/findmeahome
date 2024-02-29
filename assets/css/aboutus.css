@@ -15,10 +15,6 @@ body {
     text-align: center;
 }
 
-.numdesc {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-}
     
 @media (min-width: 1280px) {
     .top {
@@ -683,13 +679,14 @@ body {
     
     .numdesc {
         width: 90%;
-        height: 45%;
+        height: 40%;
         margin: 0px auto;
         margin-left: 5%;
         color: white;
         text-align: left;
         padding: 5% 20px;
         padding-left: 0px;
+        margin-bottom: 10%;
     }
     .top2 {
         display: inline-flex;
@@ -974,13 +971,14 @@ body {
     
     .numdesc {
         width: 90%;
-        height: 45%;
+        height: 40%;
         margin: 0px auto;
         margin-left: 5%;
         color: white;
         text-align: left;
         padding: 5% 20px;
         padding-left: 0px;
+        margin-bottom: 10%;
     }
     .top2 {
         display: inline-flex;
@@ -1265,13 +1263,14 @@ body {
     
     .numdesc {
         width: 90%;
-        height: 45%;
+        height: 40%;
         margin: 0px auto;
         margin-left: 5%;
         color: white;
         text-align: left;
         padding: 5% 20px;
         padding-left: 0px;
+        margin-bottom: 10%;
     }
     .top2 {
         display: inline-flex;
@@ -1554,13 +1553,14 @@ body {
     
     .numdesc {
         width: 90%;
-        height: 45%;
+        height: 40%;
         margin: 0px auto;
         margin-left: 5%;
         color: white;
         text-align: left;
         padding: 5% 20px;
         padding-left: 0px;
+        margin-bottom: 10%;
     }
     .top2 {
         display: inline-flex;

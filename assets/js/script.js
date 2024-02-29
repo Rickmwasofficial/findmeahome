@@ -300,7 +300,7 @@ function showpopup(num) {
                 background: ivory;
                 padding: 20px;
                 width: 100vw;
-                margin-left: -5%;
+                margin-left: -55%;
                 height: auto;
                 display: inline-block;
                 text-align: left;
