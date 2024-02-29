@@ -1,10 +1,10 @@
 let topPage = document.querySelector(".end");
 let isLoggedIn = Boolean;
 let availableHouses = [
-    'pexels-carlos-diaz-709767.jpg',
-    'pexels-max-rahubovskiy-6782581.jpg',
-    'pexels-josh-sorenson-111093.jpg',
-    'pexels-jovydas-dobilas-2462015.jpg'
+    '/public/pexels-carlos-diaz-709767.jpg',
+    '/public/pexels-max-rahubovskiy-6782581.jpg',
+    '/public/pexels-josh-sorenson-111093.jpg',
+    '/public/pexels-jovydas-dobilas-2462015.jpg'
 ]
 
 let housedetails = [
@@ -22,6 +22,21 @@ house.innerHTML = `
             
         </div>
         </div>
+        <style>
+            .bookdirect {
+                position: fixed;
+                margin: 0px auto;
+                margin-top: 80vh;
+                background: white;
+                width: 120px;
+                height: 30px;
+                border-radius: 30px;
+                border: 1px solid black;
+                margin-left: -62vw;
+                padding-top: 12px;
+            }
+        </style>
+        <a class="bookdirect" href='#reviewtext'>Book Room</a>
         <div class="contdet">
         <div class="morecont">
             <div class="textdet">
@@ -49,14 +64,14 @@ house.innerHTML = `
                             <b>Rating: 4.5/5.0</b>
                         </div>
                     </div>
-                    <div class="reviewtext">
+                    <div class="reviewtext" id="reviewtext">
                         
                         <p>Despite its compact size, the room is efficiently designed to maximize functionality and comfort. The layout is well-planned, with designated areas for sleeping, studying, and relaxing. The bed is cozy and equipped with storage drawers underneath, perfect for keeping belongings organized in a limited space. The desk provides ample workspace for studying, with enough room for a laptop and textbooks.</p>
                     </div>
                 </div>
             </div>
             <div class="book">
-                <div class="bookdiv">
+                <div class="bookdiv" id="bookdiv">
                     <b style="font-size: 20px;">Ksh ${housedetails[5]} per month</b>
                     <div class="in">
                         <b>Rooms: ${housedetails[6]}</b><hr>
@@ -78,6 +93,16 @@ house.innerHTML = `
         </div>
         </div>
 `
+document.querySelector('.bookdirect').addEventListener("click", function(){            
+    document.querySelector('.bookdirect').innerHTML = `
+    <style>
+    .bookdirect {
+        display: none;
+    }
+</style>`;
+
+});
+
 
 function load() {
     document.querySelector("#load").innerHTML = `
@@ -210,45 +235,57 @@ document.addEventListener("DOMContentLoaded", function () {
 function checkIfLoggedIn(state) {
     if (state) {
         topPage.innerHTML = `
-            <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
-            <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
-            <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
-            <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a>
-            <button class="login" onclick="logout()">
-                <style>
-                    .end svg {
-                        margin: auto 0px;
-                        margin: 10px;
-                        color: white;
-                    }
-                    .end p {
-                        margin-left: 5px;
-                    }
-                    .login {
-                        width: auto;
-                        border-radius: 10px;
-                    }
-                </style>
-                <!--Import the profile temolate from bootstrap-->
-                <abbr title="Your Cart">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
-                </abbr> 
-            </button>
-    `;
-    } else {
-        topPage.innerHTML = `
-            <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
-            <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
-            <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
-            <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a>
+        <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
+        <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
+        <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
+        
+        <a href="login.html">
+            <button class="signin" onclick="login()">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p class="txt">Sign in</p>
+                
+            </button></a>
+        <a href="login.html">
             <button class="login" onclick="login()">
-                <!--Import the profile temolate from bootstrap-->
+                
                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
                 </svg>
                 <p class="txt">Create account</p>
-            </button>
+                
+            </button></a>
+    `;
+    } else {
+        topPage.innerHTML = `
+        <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
+        <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
+        <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
+        
+        <a href="login.html">
+            <button class="signin" onclick="login()">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p class="txt">Sign in</p>
+                
+            </button></a>
+        <a href="login.html">
+            <button class="login" onclick="login()">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p class="txt">Create account</p>
+                
+            </button></a>
     `
     }
 }
@@ -286,7 +323,11 @@ function change(direction, currentCount) {
     } else if (direction == "back" && currentCount > 0) {
         currentCount -= 1
         apartments(availableHouses[currentCount], currentCount)
-    }   
+    } else if (direction == "front" && currentCount === 3) {
+        apartments(availableHouses[0], 0)
+    } else if (direction == "back" && currentCount === 0) {
+        apartments(availableHouses[3], 3)
+    }
 }
 
 function apartments(image, curr) {
@@ -333,7 +374,7 @@ function apartments(image, curr) {
         
 }
 
-apartments('pexels-carlos-diaz-709767.jpg', 0)
+apartments('/public/pexels-carlos-diaz-709767.jpg', 0)
 let menbtn = document.querySelector(".menubtn")
 function showpopup(num) {
     if (num === 1) {
@@ -342,7 +383,7 @@ function showpopup(num) {
         <style>
             .popup {
                 position: fixed;
-                margin-top: 65px;
+                margin-top: 53px;
                 z-index: 1;
                 background: ivory;
                 padding: 20px;
@@ -352,7 +393,21 @@ function showpopup(num) {
                 display: inline-block;
                 text-align: left;
             }
+            .menubtn {
+                display: inline-flex;
+                justify-content: space-between;
+                height: auto;
+                vertical-align: middle;
+            }
+            #closer {
+                margin: auto 0px;
+                margin-top: 45%;
+                margin-right: 4px;
+            }
+            
+            
         </style>
+        <p id="closer">Close</p>
         <button class="end2" onclick="showpopup(0)" style="background: url('sort.png'); background-size: cover; background-position: center;">
                         
                     </button>`
