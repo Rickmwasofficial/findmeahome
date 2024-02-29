@@ -1,10 +1,10 @@
 let topPage = document.querySelector(".end");
 let isLoggedIn = Boolean;
 let availableHouses = [
-    '/public/pexels-carlos-diaz-709767.jpg',
-    '/public/pexels-max-rahubovskiy-6782581.jpg',
-    '/public/pexels-josh-sorenson-111093.jpg',
-    '/public/pexels-jovydas-dobilas-2462015.jpg'
+    'pexels-carlos-diaz-709767.jpg',
+    'pexels-max-rahubovskiy-6782581.jpg',
+    'pexels-josh-sorenson-111093.jpg',
+    'pexels-jovydas-dobilas-2462015.jpg'
 ]
 
 let housedetails = [
