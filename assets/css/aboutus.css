@@ -1,69 +1,1758 @@
-body {
-    overflow-x: hidden;
-    width: 100%;
-    height: auto;
-    background: ivory;
-    text-align: center;
-}
-
-.top {
-    display: inline-flex;
-    margin: -10px;
-    width: 100%;
-    vertical-align: middle;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-}
-
-.logoname {
-    align-self: flex-start;
-}
-
-.mylogo {
-    margin-left: 70px;
-    padding: 15px;
-    height: 60px;
-}
-
-.end {
-    display: inline-flex;
-    justify-self: flex-end;
-    vertical-align: middle;
-    align-items: center;    
-    margin-right: 85px;
-}
-
-.tag {
-    color: black;
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.login {
-    display: inline-flex;
-    border-radius: 20px;
-    border: none;
-    width: 150px;
-    height: 50px;
-    margin: 15px;
-    margin-right: 0px;
-    margin-left: 0px;
-    text-align: center;
-    vertical-align: middle;
-    background: rgb(128, 193, 219);
-    color: white; 
-    padding-left: 6px;
-}
-
-.txt {
-    padding-left: 6px;
-    padding-bottom: 10px;
-    padding-top: 2px;
-}
-
-button:hover {
+@media (min-width: 1280px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
     
-    cursor: pointer;
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .popup {
+        display: none;
+    }
+    
+    .num {
+        width: 88vw;
+        height: 400px;
+        background: black;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    
+    .num .image {
+        width: 40%;
+        height: 95%;
+        margin: auto 0px;
+        margin-left: 10px;
+        background: white;
+    }
+    
+    .numdesc {
+        width: 50%;
+        height: 480px;
+        margin: auto 0px;
+        margin-left: 10px;
+        color: white;
+        text-align: left;
+        padding: 5% 20px;
+        margin-left: -10px;
+    }
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses, .small {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .footer {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        margin-left: -9px;
+        padding: 10px;
+        color: white;
+        margin-bottom: -25px;
+    }
+    .ndfooter {
+        width: 100%;
+        height: 95%;
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .footer svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter {
+        width: 45%;
+        height: 100%;
+        background: black;
+        text-align: left;
+        margin-left: 40px;
+        
+    }
+    .leftfooter {
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus, .more {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+    }
+    .contactus a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+    }
+        
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .top2, .cont2, .footer2, .search2, .popup, .scriptdesc, .tophouses, .small {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        background: ivory;
+        text-align: center;
+    }
+    
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .popup {
+        display: none;
+    }
+    
+    .num {
+        width: 88vw;
+        height: 400px;
+        background: black;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    
+    .num .image {
+        width: 40%;
+        height: 95%;
+        margin: auto 0px;
+        margin-left: 10px;
+        background: white;
+    }
+    
+    .numdesc {
+        width: 50%;
+        height: 480px;
+        margin: auto 0px;
+        margin-left: 10px;
+        color: white;
+        text-align: left;
+        padding: 5% 20px;
+        margin-left: -10px;
+    }
+    .top {
+        display: inline-flex;
+        margin: -10px;
+        width: 100%;
+        vertical-align: middle;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    .end {
+        display: inline-flex;
+        justify-self: flex-end;
+        vertical-align: middle;
+        align-items: center;    
+        margin-right: 85px;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .footer {
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        margin-left: -9px;
+        padding: 10px;
+        color: white;
+        margin-bottom: -25px;
+    }
+    .ndfooter {
+        width: 100%;
+        height: 95%;
+        display: inline-flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .footer svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter {
+        width: 45%;
+        height: 100%;
+        background: black;
+        text-align: left;
+        margin-left: 40px;
+        
+    }
+    .leftfooter {
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus, .more {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+    }
+    .contactus a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 819px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        background: ivory;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .popup {
+        display: none;
+    }
+    
+    .aboutcont {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        margin-top: 80px;
+        background: ivory;
+    }
+    .num {
+        width: 88vw;
+        height: 640px;
+        background: black;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        padding: 10px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+    .num .image {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-top: 10px;
+        background: white;
+    }
+    
+    .numdesc {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-left: 5%;
+        color: white;
+        text-align: left;
+        padding: 5% 20px;
+        padding-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -4px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+    .top, .cont, .footer, .search, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 411px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        background: ivory;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .popup {
+        display: none;
+    }
+    
+    .aboutcont {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        margin-top: 80px;
+        background: ivory;
+    }
+    .num {
+        width: 88vw;
+        height: 640px;
+        background: black;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        padding: 10px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+    .num .image {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-top: 10px;
+        background: white;
+    }
+    
+    .numdesc {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-left: 5%;
+        color: white;
+        text-align: left;
+        padding: 5% 20px;
+        padding-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -4px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+    .top, .cont, .footer, .search, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        background: ivory;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .popup {
+        display: none;
+    }
+    
+    .aboutcont {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        margin-top: 80px;
+        background: ivory;
+    }
+    .num {
+        width: 88vw;
+        height: 640px;
+        background: black;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        padding: 10px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+    .num .image {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-top: 10px;
+        background: white;
+    }
+    
+    .numdesc {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-left: 5%;
+        color: white;
+        text-align: left;
+        padding: 5% 20px;
+        padding-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -4px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+    .top, .cont, .footer, .search, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
+@media (min-width: 280px) and (max-width: 359px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        min-width: 100vw;
+        max-width: 819px;
+        outline: hidden;
+        background: ivory;
+    }
+    
+    .logoname {
+        align-self: flex-start;
+    }
+    
+    .mylogo {
+        margin-left: 70px;
+        padding: 15px;
+        height: 60px;
+    }
+    
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    .popup {
+        display: none;
+    }
+    
+    .aboutcont {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        margin-top: 80px;
+        background: ivory;
+    }
+    .num {
+        width: 88vw;
+        height: 640px;
+        background: black;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        padding: 10px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+    .num .image {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-top: 10px;
+        background: white;
+    }
+    
+    .numdesc {
+        width: 90%;
+        height: 50%;
+        margin: 0px auto;
+        margin-left: 5%;
+        color: white;
+        text-align: left;
+        padding: 5% 20px;
+        padding-left: 0px;
+    }
+    .top2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 5px;
+        
+        margin: 0px auto;
+        height: 80px;
+        position: fixed;
+        background: ivory;
+        z-index: 1;
+        margin-top: -15px;
+        margin-left: -4px;
+    }
+    
+    .menubtn {
+        background: none;
+        border: none;
+        height: 100%;
+        margin: auto 0px;
+        margin-top: -5px;
+    }
+    .menubtn button {
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin: auto 0px;
+        margin-top: 25px;
+    }
+    .logoname {
+        display: inline-flex;
+        width: 30%;
+        text-align: left;
+        margin-right: 20vw;
+    }
+    
+    .mylogo {
+        padding: 15px;
+        height: 60px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    
+    .tag {
+        color: black;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .login {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 140px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(128, 193, 219);
+        color: white; 
+        padding-left: 6px;
+    }
+    .signin {
+        display: inline-flex;
+        border-radius: 20px;
+        border: none;
+        width: 110px;
+        height: 50px;
+        margin: 15px;
+        margin-right: 5px;
+        margin-left: 0px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(128, 193, 219);
+        color: rgb(128, 193, 219);
+        background: ivory;
+        padding-left: 6px;
+    }
+    
+    .txt {
+        padding-left: 3px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+    .signin .txt {
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        color: black;
+    }
+    
+    button:hover {
+        
+        cursor: pointer;
+    }
+    
+    .footer2 {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+        padding: 10px;
+        margin-top: -15px;
+        overflow-x: hidden;
+        margin-left: -7.79px;
+        color: white;
+    }
+    .ndfooter2 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        justify-content: space-between;
+        background: black;
+    }
+    .footer2 .mylogo {
+        margin-left: -40px;
+    }
+    .footer2 svg {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .rightfooter2 {
+        width: 100%;
+        height: 100%;
+        background: black;
+        text-align: center;
+        
+    }
+    .leftfooter2 {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        background: black;
+        text-align: left;
+        margin-right: 40px;
+    }
+    .contactus2, .more2 {
+        width: 75%;
+        margin: 0px auto;
+        height: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .contactus2 a {
+        display: inline-flex;
+        justify-content: space-between;
+        margin: auto 0px;
+        margin-bottom: 20px;
+    }
+    .popup {
+        width: 0px;
+        height: 0px;
+        display: none;
+        text-align: center; 
+    }
+    .top, .cont, .footer, .search, .ndfooter, .leftfooter, .end, .top .logoname, .contimage, .student, .landlord, .footer p{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
