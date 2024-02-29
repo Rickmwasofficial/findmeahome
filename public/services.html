@@ -21,15 +21,24 @@
 
         </main>
         <!-- Hidden image elements for preloading -->
-        <img src="newlohg-transformed.png" alt="" style="display: none;">
-        <img src="pexels-sevenstorm-juhaszimrus-439391.jpg" alt="" style="display: none;">
-        <img src="dreamhome.jpg" alt="" style="display: none;">
-        <img src="2883790.jpg" alt="" style="display: none;">
-        <img src="4334970.jpg" alt="" style="display: none;">
-        <img src="easycomm.avif" alt="" style="display: none;">
-        <img src="occupancy.jpg" alt="" style="display: none;">
-        <img src="UiUx.avif" alt="" style="display: none;">
-        <img src="targetaudience.jpg" alt="" style="display: none;">
+        <img src="newlohg-transformed.png" alt="" loading="eager" style="display: none;">
+        <img src="pexels-sevenstorm-juhaszimrus-439391.jpg" loading="lazy" alt="" style="display: none;">
+        <img src="dreamhome.jpg" alt="" loading="lazy" style="display: none;">
+        <img src="2883790.jpg" alt="" loading="lazy" style="display: none;">
+        <img src="4334970.jpg" alt="" loading="lazy" style="display: none;">
+        <img src="easycomm.avif" alt="" loading="lazy"  style="display: none;">
+        <img src="occupancy.jpg" alt="" loading="lazy" style="display: none;">
+        <img src="UiUx.avif" alt="" loading="lazy" style="display: none;">
+        <img src="targetaudience.jpg" alt="" loading="lazy" style="display: none;">
+        <link rel="preload" as="image" href="newlohg-transformed.png">
+        <link rel="preload" as="image" href="pexels-sevenstorm-juhaszimrus-439391.jpg">
+        <link rel="preload" as="image" href="dreamhome.jpg">
+        <link rel="preload" as="image" href="2883790.jpg">
+        <link rel="preload" as="image" href="4334970.jpg">
+        <link rel="preload" as="image" href="easycomm.avif">
+        <link rel="preload" as="image" href="occupancy.jpg">
+        <link rel="preload" as="image" href="UiUx.avif">
+        <link rel="preload" as="image" href="targetaudience.jpg">
         <div class="secondbody">
             <div class="top">
                 <!--The logoname div is a div that contains and image of the company logo. Placed to the left of the header-->
@@ -42,18 +51,27 @@
                     <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a>
                     <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a>
                     <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a>
-                    <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a>
+                    
+                    <a href="login.html">
+                        <button class="signin" onclick="login()">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                            </svg>
+                            <p class="txt">Sign in</p>
+                            
+                        </button></a>
                     <a href="login.html">
                         <button class="login" onclick="login()">
                             
-                            <!--Import the profile temolate from bootstrap-->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
                                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
                             </svg>
                             <p class="txt">Create account</p>
                             
-                    </button></a>
+                        </button></a>
                 </div>
             </div>
             <div class="top2">
@@ -76,21 +94,39 @@
                     </div>
                 </div>
                 <div class="popup">
+                    <style>
+                        .popup .signin {
+                            margin-left: 50px;
+                            width: 120px;
+                        }
+                        .popup {
+                            margin-left: -60px;
+                        }
+                    </style>
                     <a href="index.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Home</button></b></a><br>
-                    <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a><br>
-                    <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a><br>
-                    <a href="#contactus"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Contact us</button></b></a><br>
-                    <a href="login.html">
-                        <button class="login" onclick="login()">
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
-                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                            </svg>
-                            <p class="txt">Create account</p>
-                            
-                        </button>
-                    </a>
+                        <a href="services.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">Our Services</button></b></a><br>
+                        <a href="Aboutus.html"><button class="tag" onclick="checkIfLoggedIn(isLoggedIn);" style="border: none; background: none; font-size: 19px;">About Us</button></b></a><br>
+                        
+                        <a href="login.html">
+                            <button class="signin" onclick="login()">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                                </svg>
+                                <p class="txt">Sign in</p>
+                                
+                            </button></a>
+                        <a href="login.html">
+                            <button class="login" onclick="login()">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="justify-self: flex-start; align-self: center; border: none; padding-left: 6px;">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                                </svg>
+                                <p class="txt">Create account</p>
+                                
+                            </button></a>
                 </div>
                 <div class="search">
                     <a href="#students">
@@ -102,6 +138,24 @@
                         </div>
                     </a>
                     <a href="#landlord">
+                        <div class="forlandlords">
+                            <img src="icons8-landlord-50.png" style="width: 100px; margin-top: 10px; height: 100px">
+                            <h2 style="color: red; font-size: 19px;">ROOMIFY FOR LANDLORDS</h2>
+                            <p>Here's why you should rely on us to connect you to your new tenants. </p>
+                            <p>Learn More &rarr;</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="search2">
+                    <a href="#students2">
+                        <div class="forstudents">
+                            <img src="icons8-students-64.png" style="width: 100px; margin-top: 10px; height: 100px">
+                            <h2 style="color: red; font-size: 19px;">ROOMIFY FOR STUDENTS</h2>
+                            <p>Here's why you should rely on us to make your house search simpler.</p>
+                            <p>Learn More &rarr;</p>
+                        </div>
+                    </a>
+                    <a href="#landlord2">
                         <div class="forlandlords">
                             <img src="icons8-landlord-50.png" style="width: 100px; margin-top: 10px; height: 100px">
                             <h2 style="color: red; font-size: 19px;">ROOMIFY FOR LANDLORDS</h2>
@@ -198,7 +252,7 @@
                     
                 </div>
             </div>
-            <div class="student2" id="students">
+            <div class="student2" id="students2">
                 <h1 style="background: ivory;">For Students</h1>
                 <div class="dreamhome design">
                     <div class="imagee dreamimg" style="background: url('dreamhome.jpg'); background-size: cover;">
@@ -243,7 +297,7 @@
                 </div>
                 
             </div>
-            <div class="landlord2" id="landlord" style="background: ivory;">
+            <div class="landlord2" id="landlord2" style="background: ivory;">
                 <h1 style="background: ivory;">For Landlords</h1>
                 <div class="targetaudience design">
                     <div class="imagee audienceimg" style="background: url('targetaudience.jpg'); background-size: cover;">
@@ -305,8 +359,8 @@
                             <img class="mylogo" src="newlohg-transformed.png"/>
                         </div>
                         <p><b>BOOK SMART. LIVE SMART.</b></p>
-                        <a href="#" style="color: white;"><p>About Us</p></a>
-                        <a href="#" style="color: white;"><p>Our Services</p></a>
+                        <a href="Aboutus.html" style="color: white;"><p>About Us</p></a>
+                        <a href="services.html" style="color: white;"><p>Our Services</p></a>
                         <a href="#" style="color: white;"><p>Blog</p></a>
                     </div>
                 </div>
@@ -352,13 +406,13 @@
                             <img class="mylogo" src="newlohg-transformed.png"/>
                         </div>
                         <p><b>BOOK SMART. LIVE SMART.</b></p>
-                        <a href="#" style="color: white;"><p>About Us</p></a>
-                        <a href="#" style="color: white;"><p>Our Services</p></a>
+                        <a href="Aboutus.html" style="color: white;"><p>About Us</p></a>
+                        <a href="services.html" style="color: white;"><p>Our Services</p></a>
                         <a href="#" style="color: white;"><p>Blog</p></a>
                     </div>
                 </div>
                 <div class="leftfooter2">
-                    <div class="contactus2" id="contactus2">
+                    <div class="contactus2" id="contactus">
                         <h2>Any Complaints or Suggestions? Contact Us</h2>
                         
                             <a href="#" style="color: white;"><?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
