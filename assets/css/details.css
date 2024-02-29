@@ -1,11 +1,19 @@
 body {
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
+    height: auto;
+    min-width: 100vw;
+    max-width: 100vw;
+    background: ivory;
+    text-align: center;
+}
+.secondbody {
+    overflow-x: hidden;
+    width: 100vw;
     height: auto;
     background: ivory;
     text-align: center;
 }
-
 @media (min-width: 1280px) {
     .top {
         display: inline-flex;
@@ -650,16 +658,6 @@ body {
 
 
 @media (min-width: 412px) and (max-width: 819px) {
-    .secondbody {
-        width: 100vw;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        min-width: 100vw;
-        max-width: 819px;
-        outline: hidden;
-        margin: 0px auto;
-    }
-    
     .detailscont {
         width: 100vw;
         height: auto;
@@ -1010,16 +1008,6 @@ body {
 
 
 @media (min-width: 375px) and (max-width: 389px) {
-    .secondbody {
-        width: 100vw;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        min-width: 100vw;
-        max-width: 819px;
-        outline: hidden;
-        margin: 0px auto;
-    }
-    
     .detailscont {
         width: 100vw;
         height: auto;
@@ -1367,15 +1355,6 @@ body {
     }
 }
 @media (min-width: 390px) and (max-width: 411px) {
-    .secondbody {
-        width: 100vw;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        min-width: 100vw;
-        max-width: 819px;
-        outline: hidden;
-        margin: 0px auto;
-    }
     
     .detailscont {
         width: 100vw;
@@ -1725,15 +1704,6 @@ body {
 }
 
 @media (min-width: 360px) and (max-width: 374px) {
-    .secondbody {
-        width: 100vw;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        min-width: 100vw;
-        max-width: 819px;
-        outline: hidden;
-        margin: 0px auto;
-    }
     
     .detailscont {
         width: 100vw;
