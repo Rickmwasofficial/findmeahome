@@ -14,6 +14,11 @@ body {
     background: ivory;
     text-align: center;
 }
+
+.numdesc {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
     
 @media (min-width: 1280px) {
     .top {
@@ -698,7 +703,7 @@ body {
         background: ivory;
         z-index: 1;
         margin-top: -15px;
-        margin-left: -4px;
+        margin-left: -215px;
     }
     
     .menubtn {
@@ -989,7 +994,7 @@ body {
         background: ivory;
         z-index: 1;
         margin-top: -15px;
-        margin-left: -4px;
+        margin-left: -190px;
     }
     
     .menubtn {
@@ -1280,7 +1285,7 @@ body {
         background: ivory;
         z-index: 1;
         margin-top: -15px;
-        margin-left: -4px;
+        margin-left: -184px;
     }
     
     .menubtn {
@@ -1569,7 +1574,7 @@ body {
         background: ivory;
         z-index: 1;
         margin-top: -15px;
-        margin-left: -4px;
+        margin-left: -145px;
     }
     
     .menubtn {
